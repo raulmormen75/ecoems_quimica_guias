@@ -28,7 +28,7 @@
     { id: 'guia-1', label: 'Guía 1' },
     { id: 'guia-2', label: 'Guía 2' },
     { id: 'temas', label: 'Temas' },
-    { id: 'todos', label: 'Todos' }
+    { id: 'todos', label: 'Todos los reactivos' }
   ];
 
   const GUIDE_TEXT = {
@@ -189,7 +189,7 @@
 
   function renderGuideChips() {
     return [
-      chip('Todas', currentGuide() === 'all' && !['guia-1', 'guia-2'].includes(STATE.view), 'guide', { 'data-guide': 'all' }),
+      chip('Todas las guías', currentGuide() === 'all' && !['guia-1', 'guia-2'].includes(STATE.view), 'guide', { 'data-guide': 'all' }),
       ...GUIDES.map((guide) => chip(guide.name, currentGuide() === guide.id, 'guide', { 'data-guide': guide.id }))
     ].join('');
   }
