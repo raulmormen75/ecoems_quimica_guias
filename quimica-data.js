@@ -3,7 +3,7 @@ window.IFR_APP_DATA = {
     "title": "Instituto Fernando Ramírez · ECOEMS Química",
     "subject": "Química",
     "version": "1.0.0",
-    "generatedAt": "2026-03-23 23:10:51",
+    "generatedAt": "2026-03-23 23:16:42",
     "totalExercises": 24,
     "topicCount": 18
   },
@@ -199,22 +199,22 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "Difusibilidad y volumen propio.",
-              "text": "Difusibilidad significa que un gas puede dispersarse y mezclarse con facilidad, por ejemplo, cuando un olor se esparce en un cuarto. Esa parte sí se relaciona con los gases.\nLo que está mal es «volumen propio». Un gas no tiene volumen propio o fijo. El gas ocupa el volumen del recipiente donde está.\nPuede confundir porque la primera palabra sí es correcta, pero la segunda ya no.\nSe descarta porque está incompleta y mal en una parte importante."
+              "text": "Difusibilidad significa que un gas puede dispersarse y mezclarse con facilidad, por ejemplo, cuando un olor se esparce en un cuarto. Esa parte sí se relaciona con los gases.\nLo que está mal es «volumen propio». Un gas no tiene volumen propio o fijo. El gas ocupa el volumen del recipiente donde está.\nPuede confundir porque la primera palabra sí es pertinente, pero la segunda ya no."
             },
             {
               "label": "B",
               "option": "Volumen definido y maleabilidad.",
-              "text": "Volumen definido significa que una sustancia conserva siempre el mismo volumen por sí misma. Eso no corresponde al gas.\nMaleabilidad es la capacidad de un material de deformarse en láminas, como algunos metales. Eso tampoco es propiedad de los gases.\nPuede confundir porque habla de propiedades físicas reales, pero no son de los gases.\nSe descarta porque ambas ideas están mal para este tema."
+              "text": "Volumen definido significa que una sustancia conserva siempre el mismo volumen por sí misma. Eso no corresponde al gas.\nMaleabilidad es la capacidad de un material de deformarse en láminas, como algunos metales. Eso tampoco es propiedad de los gases.\nPuede confundir porque habla de propiedades físicas reales, pero no son de los gases."
             },
             {
               "label": "C",
               "option": "Volumen y forma indefinida.",
-              "text": "Esta opción reúne varios elementos relacionados con el tema. los gases no tienen forma fija y tampoco tienen volumen propio; toman la forma y el volumen del recipiente.\nPuede confundir porque está redactada raro. Lo más correcto sería decir «forma y volumen indefinidos» o «sin forma ni volumen propios»."
+              "text": "Esta opción reúne varios elementos relacionados con el tema. los gases no tienen forma fija y tampoco tienen volumen propio; toman la forma y el volumen del recipiente.\nPuede confundir porque está redactada raro. Lo más pertinente sería decir «forma y volumen indefinidos» o «sin forma ni volumen propios»."
             },
             {
               "label": "D",
               "option": "Forma indefinida y maleabilidad.",
-              "text": "Forma indefinida sí corresponde a los gases.\nMaleabilidad no corresponde a los gases; es una propiedad típica de ciertos sólidos, sobre todo metales.\nPuede confundir porque mezcla una característica correcta con otra incorrecta.\nSe descarta porque no da dos propiedades de los gases, solo una."
+              "text": "Forma indefinida sí corresponde a los gases.\nMaleabilidad no corresponde a los gases; es una propiedad típica de ciertos sólidos, sobre todo metales.\nPuede confundir porque mezcla una característica pertinente con otra imprecisa."
             }
           ],
           "hint": "Busca la opción que diga que el gas no conserva por sí solo ni su forma ni el espacio que ocupa.",
@@ -261,17 +261,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "Temperatura de ebullición y solubilidad.",
-              "text": "La temperatura de ebullición indica a qué temperatura una sustancia hierve.\nLa solubilidad indica qué tanto puede disolverse una sustancia en otra.\nSí son propiedades físicas, pero no sirven para medir la cantidad de sustancia.\nPuede confundir porque ambas se pueden medir, pero no responden a «cuánto hay».\nSe descarta."
+              "text": "La temperatura de ebullición indica a qué temperatura una sustancia hierve.\nLa solubilidad indica qué tanto puede disolverse una sustancia en otra.\nSí son propiedades físicas, pero no sirven para medir la cantidad de sustancia.\nPuede confundir porque ambas se pueden medir, pero no responden a «cuánto hay»."
             },
             {
               "label": "B",
               "option": "Temperatura de fusión y densidad.",
-              "text": "La temperatura de fusión indica cuándo un material pasa de sólido a líquido.\nLa densidad relaciona masa y volumen.\nLa densidad ayuda a describir una sustancia, pero no expresa por sí sola la cantidad que tienes.\nPuede confundir porque la densidad sí usa masa y volumen, pero no sustituye a esas dos medidas.\nSe descarta."
+              "text": "La temperatura de fusión indica cuándo un material pasa de sólido a líquido.\nLa densidad relaciona masa y volumen.\nLa densidad ayuda a describir una sustancia, pero no expresa por sí sola la cantidad que tienes.\nPuede confundir porque la densidad sí usa masa y volumen, pero no sustituye a esas dos medidas."
             },
             {
               "label": "C",
               "option": "Presión y densidad.",
-              "text": "La presión es la fuerza aplicada sobre una superficie.\nLa densidad, otra vez, describe qué tan concentrada está la materia en un espacio.\nNinguna de las dos es la forma básica de medir directamente la cantidad de sustancia en este tipo de reactivo.\nPuede confundir porque son propiedades físicas reales, pero no son las más directas para medir cantidad.\nSe descarta."
+              "text": "La presión es la fuerza aplicada sobre una superficie.\nLa densidad, otra vez, describe qué tan concentrada está la materia en un espacio.\nNinguna de las dos es la forma básica de medir directamente la cantidad de sustancia en este tipo de reactivo.\nPuede confundir porque son propiedades físicas reales, pero no son las más directas para medir cantidad."
             },
             {
               "label": "D",
@@ -324,7 +324,7 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "densidad.",
-              "text": "La densidad es la relación entre la masa y el volumen de una sustancia.\nSí se relaciona con propiedades físicas, pero no permanece igual al cambiar de estado.\nPuede confundir porque sigue siendo agua, pero el hielo y el agua líquida no tienen la misma densidad.\nSe descarta."
+              "text": "La densidad es la relación entre la masa y el volumen de una sustancia.\nSí se relaciona con propiedades físicas, pero no permanece igual al cambiar de estado.\nPuede confundir porque sigue siendo agua, pero el hielo y el agua líquida no tienen la misma densidad."
             },
             {
               "label": "B",
@@ -334,12 +334,12 @@ window.IFR_APP_DATA = {
             {
               "label": "C",
               "option": "solubilidad.",
-              "text": "La solubilidad es la capacidad de una sustancia para disolverse en otra.\nSe relaciona con propiedades físicas, pero aquí no están hablando de disolver agua en otra sustancia.\nPuede confundir porque es una propiedad real, pero no responde lo que pregunta el reactivo.\nSe descarta."
+              "text": "La solubilidad es la capacidad de una sustancia para disolverse en otra.\nSe relaciona con propiedades físicas, pero aquí no están hablando de disolver agua en otra sustancia.\nPuede confundir porque es una propiedad real, pero no responde lo que pregunta el reactivo."
             },
             {
               "label": "D",
               "option": "volumen.",
-              "text": "El volumen es el espacio que ocupa una sustancia.\nSí se relaciona con el tema, pero al pasar de hielo a agua líquida puede cambiar.\nPuede confundir porque el agua sigue siendo la misma sustancia, pero no necesariamente ocupa el mismo espacio en ambos estados.\nSe descarta."
+              "text": "El volumen es el espacio que ocupa una sustancia.\nSí se relaciona con el tema, pero al pasar de hielo a agua líquida puede cambiar.\nPuede confundir porque el agua sigue siendo la misma sustancia, pero no necesariamente ocupa el mismo espacio en ambos estados."
             }
           ],
           "hint": "Busca la propiedad que representa la cantidad de materia y que no depende de que esté congelada o líquida.",
@@ -387,7 +387,7 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "compuesto - mezcla - elemento",
-              "text": "Compuesto significa que todas las partículas están formadas por átomos distintos unidos.\nMezcla significa que hay más de un tipo de partícula en el mismo espacio sin ser todas iguales.\nElemento significa que está formado por un solo tipo de átomo.\nPuede confundir porque Z sí parece elemento, pero X no es compuesto y Q no es mezcla.\nSe descarta."
+              "text": "Compuesto significa que todas las partículas están formadas por átomos distintos unidos.\nMezcla significa que hay más de un tipo de partícula en el mismo espacio sin ser todas iguales.\nElemento significa que está formado por un solo tipo de átomo.\nPuede confundir porque Z sí parece elemento, pero X no es compuesto y Q no es mezcla."
             },
             {
               "label": "B",
@@ -397,12 +397,12 @@ window.IFR_APP_DATA = {
             {
               "label": "C",
               "option": "elemento - compuesto - mezcla",
-              "text": "Elemento sería un solo tipo de partícula del mismo átomo.\nEso no corresponde a X, porque en X hay varios tipos de partículas.\nQ sí parece compuesto, pero Z no parece mezcla.\nPuede confundir porque X tiene algunas partículas parecidas entre sí, pero no todas son iguales.\nSe descarta."
+              "text": "Elemento sería un solo tipo de partícula del mismo átomo.\nEso no corresponde a X, porque en X hay varios tipos de partículas.\nQ sí parece compuesto, pero Z no parece mezcla.\nPuede confundir porque X tiene algunas partículas parecidas entre sí, pero no todas son iguales."
             },
             {
               "label": "D",
               "option": "mezcla - elemento - compuesto",
-              "text": "Mezcla sí podría encajar con X.\nPero Q no es elemento, porque sus partículas están formadas por átomos distintos unidos.\nZ tampoco es compuesto, porque sus partículas están hechas del mismo tipo de átomo.\nPuede confundir porque Q y Z muestran partículas agrupadas, pero no toda agrupación es compuesto.\nSe descarta."
+              "text": "Mezcla sí podría encajar con X.\nPero Q no es elemento, porque sus partículas están formadas por átomos distintos unidos.\nZ tampoco es compuesto, porque sus partículas están hechas del mismo tipo de átomo.\nPuede confundir porque Q y Z muestran partículas agrupadas, pero no toda agrupación es compuesto."
             }
           ],
           "hint": "Primero revisa si en cada recipiente todas las partículas son iguales o si hay varias distintas. Después fíjate si los átomos unidos son del mismo tipo o de tipos diferentes.",
@@ -449,12 +449,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "electrones – negativa",
-              "text": "Los electrones sí tienen carga negativa.\nEl problema es que no se ubican dentro del núcleo, sino alrededor del núcleo.\nPuede confundir porque la carga sí está bien, pero la ubicación no.\nSe descarta porque la oración completa queda incorrecta."
+              "text": "Los electrones sí tienen carga negativa.\nEl problema es que no se ubican dentro del núcleo, sino alrededor del núcleo.\nPuede confundir porque la carga sí está bien, pero la ubicación no."
             },
             {
               "label": "B",
               "option": "neutrones – negativa",
-              "text": "Los neutrones sí están dentro del núcleo.\nPero no tienen carga negativa. Su carga es neutra, o sea, no tienen carga.\nPuede confundir porque la ubicación sí coincide.\nSe descarta porque la carga está mal."
+              "text": "Los neutrones sí están dentro del núcleo.\nPero no tienen carga negativa. Su carga es neutra, o sea, no tienen carga.\nPuede confundir porque la ubicación sí coincide."
             },
             {
               "label": "C",
@@ -464,7 +464,7 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "neutrinos – positiva",
-              "text": "Los neutrinos no son la partícula que se maneja aquí como parte básica de la estructura del átomo en este nivel.\nAdemás, no es correcto ponerlos como partícula del núcleo con esa descripción.\nPuede confundir por parecerse a la palabra «neutrones».\nSe descarta."
+              "text": "Los neutrinos no son la partícula que se maneja aquí como parte básica de la estructura del átomo en este nivel.\nAdemás, no es pertinente ponerlos como partícula del núcleo con esa descripción.\nPuede confundir por parecerse a la palabra «neutrones»."
             }
           ],
           "hint": "Busca la partícula que está en el núcleo y que tiene signo contrario al electrón.",
@@ -512,12 +512,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "34",
-              "text": "Este número corresponde solo a los protones.\nSí se relaciona con el tema, porque los protones forman parte del átomo.\nPuede confundir porque algunas personas creen que el número de masa y el número atómico son lo mismo.\nSe descarta porque aquí faltan los neutrones."
+              "text": "Este número corresponde solo a los protones.\nSí se relaciona con el tema, porque los protones forman parte del átomo.\nPuede confundir porque algunas personas creen que el número de masa y el número atómico son lo mismo."
             },
             {
               "label": "B",
               "option": "11",
-              "text": "Este valor parece salir de una resta: 45 menos 34.\nSí usa los datos del problema, pero la operación está mal para este tema.\nPuede confundir porque el alumno puede pensar que hay que comparar protones y neutrones.\nSe descarta porque el número de masa no se obtiene restando."
+              "text": "Este valor parece salir de una resta: 45 menos 34.\nSí usa los datos del problema, pero la operación está mal para este tema.\nPuede confundir porque el alumno puede pensar que hay que comparar protones y neutrones."
             },
             {
               "label": "C",
@@ -527,7 +527,7 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "45",
-              "text": "Este número corresponde solo a los neutrones.\nSí está dentro de los datos del reactivo.\nPuede confundir porque los neutrones sí forman parte del núcleo, pero no representan por sí solos el número de masa.\nSe descarta porque falta sumar los protones."
+              "text": "Este número corresponde solo a los neutrones.\nSí está dentro de los datos del reactivo.\nPuede confundir porque los neutrones sí forman parte del núcleo, pero no representan por sí solos el número de masa."
             }
           ],
           "hint": "Si el reactivo habla de «número de masa», piensa en las partículas que están dentro del núcleo y júntalas.",
@@ -574,7 +574,7 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "moléculas – átomo",
-              "text": "Molécula es el conjunto completo de átomos unidos.\nÁtomo es cada partícula individual de un elemento.\nPuede confundir porque en H2O sí hay una molécula completa, pero el número 2 no se refiere a 2 moléculas de hidrógeno, sino a 2 átomos de hidrógeno dentro de una misma molécula de agua.\nSe descarta porque la primera parte está mal."
+              "text": "Molécula es el conjunto completo de átomos unidos.\nÁtomo es cada partícula individual de un elemento.\nPuede confundir porque en H2O sí hay una molécula completa, pero el número 2 no se refiere a 2 moléculas de hidrógeno, sino a 2 átomos de hidrógeno dentro de una misma molécula de agua."
             },
             {
               "label": "B",
@@ -584,12 +584,12 @@ window.IFR_APP_DATA = {
             {
               "label": "C",
               "option": "moléculas – molécula",
-              "text": "Aquí se estaría diciendo que hay 2 moléculas de hidrógeno y 1 molécula de oxígeno.\nEso no corresponde a la fórmula H2O.\nPuede confundir porque la palabra «molécula» suena correcta en Química, pero aquí no están contando moléculas separadas, sino átomos dentro de una molécula.\nSe descarta."
+              "text": "Aquí se estaría diciendo que hay 2 moléculas de hidrógeno y 1 molécula de oxígeno.\nEso no corresponde a la fórmula H2O.\nPuede confundir porque la palabra «molécula» suena pertinente en Química, pero aquí no están contando moléculas separadas, sino átomos dentro de una molécula."
             },
             {
               "label": "D",
               "option": "átomos – molécula",
-              "text": "La primera parte sí parece correcta, porque el 2 sí habla de 2 átomos de hidrógeno.\nPero la segunda parte está mal, porque en H2O no hay 1 molécula de oxígeno, sino 1 átomo de oxígeno.\nPuede confundir porque mezcla una parte correcta con otra incorrecta.\nSe descarta."
+              "text": "La primera parte sí parece pertinente, porque el 2 sí habla de 2 átomos de hidrógeno.\nPero la segunda parte está mal, porque en H2O no hay 1 molécula de oxígeno, sino 1 átomo de oxígeno.\nPuede confundir porque mezcla una parte pertinente con otra imprecisa."
             }
           ],
           "hint": "Fíjate en los subíndices: indican cuántos átomos hay de cada elemento dentro de la fórmula.",
@@ -635,12 +635,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "creciente de masa atómica.",
-              "text": "Esto significa ordenar los elementos del más ligero al más pesado según su masa.\nSí se relaciona con la tabla periódica, porque antes hubo intentos de ordenarla así.\nPuede confundir porque históricamente se pensó en la masa atómica para acomodar elementos.\nSe descarta porque la tabla periódica moderna se organiza por número atómico, no por masa atómica."
+              "text": "Esto significa ordenar los elementos del más ligero al más pesado según su masa.\nSí se relaciona con la tabla periódica, porque antes hubo intentos de ordenarla así.\nPuede confundir porque históricamente se pensó en la masa atómica para acomodar elementos."
             },
             {
               "label": "B",
               "option": "decreciente de número de masa.",
-              "text": "Esto significa acomodarlos de mayor a menor según la suma de protones y neutrones.\nSí usa un dato del átomo, pero no es el criterio real de orden de la tabla periódica.\nPuede confundir porque «número de masa» suena parecido a «número atómico».\nSe descarta porque no así se clasifican los elementos."
+              "text": "Esto significa acomodarlos de mayor a menor según la suma de protones y neutrones.\nSí usa un dato del átomo, pero no es el criterio real de orden de la tabla periódica.\nPuede confundir porque «número de masa» suena parecido a «número atómico»."
             },
             {
               "label": "C",
@@ -650,7 +650,7 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "decreciente de número atómico.",
-              "text": "Esto significaría ordenarlos del mayor al menor número de protones.\nSí se relaciona con el número atómico, pero el sentido del orden está mal.\nPuede confundir porque menciona el concepto correcto, pero la palabra «decreciente» arruina la opción.\nSe descarta."
+              "text": "Esto significaría ordenarlos del mayor al menor número de protones.\nSí se relaciona con el número atómico, pero el sentido del orden está mal.\nPuede confundir porque menciona el concepto pertinente, pero la palabra «decreciente» arruina la opción."
             }
           ],
           "hint": "Fíjate en la propiedad del átomo que indica cuántos protones tiene, no en su masa.",
@@ -703,17 +703,17 @@ window.IFR_APP_DATA = {
             {
               "label": "B",
               "option": "gravitacionales",
-              "text": "Estas fuerzas tienen que ver con la atracción por masa, como la gravedad entre cuerpos.\nNo se relacionan con la unión de átomos en Química.\nPuede confundir porque también son fuerzas, pero aquí no explican los enlaces químicos.\nSe descarta."
+              "text": "Estas fuerzas tienen que ver con la atracción por masa, como la gravedad entre cuerpos.\nNo se relacionan con la unión de átomos en Química.\nPuede confundir porque también son fuerzas, pero aquí no explican los enlaces químicos."
             },
             {
               "label": "C",
               "option": "químicas",
-              "text": "Suena lógica porque el tema es de Química.\nPero está muy general y no nombra qué tipo de fuerza actúa realmente.\nPuede confundir justo por eso: parece correcta por el nombre de la materia, no por el concepto.\nSe descarta."
+              "text": "Suena lógica porque el tema es de Química.\nPero está muy general y no nombra qué tipo de fuerza actúa realmente.\nPuede confundir justo por eso: parece pertinente por el nombre de la materia, no por el concepto."
             },
             {
               "label": "D",
               "option": "magnéticas",
-              "text": "Estas fuerzas tienen que ver con magnetismo.\nNo son las que explican la unión normal entre átomos en los enlaces químicos.\nPuede confundir porque también pertenece al mundo de la Física, pero no aplica aquí.\nSe descarta."
+              "text": "Estas fuerzas tienen que ver con magnetismo.\nNo son las que explican la unión normal entre átomos en los enlaces químicos.\nPuede confundir porque también pertenece al mundo de la Física, pero no aplica aquí."
             }
           ],
           "hint": "Busca la opción que tenga que ver con atracción entre cargas, no con masa ni con magnetismo.",
@@ -759,12 +759,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "Evaporación del agua.",
-              "text": "Evaporación significa que el agua pasa de líquido a gas.\nSí se relaciona con el tema de cambios de estado.\nPuede confundir porque sí hay un cambio visible, pero solo cambia el estado físico.\nSe descarta porque sigue siendo agua, no aparece una sustancia nueva."
+              "text": "Evaporación significa que el agua pasa de líquido a gas.\nSí se relaciona con el tema de cambios de estado.\nPuede confundir porque sí hay un cambio visible, pero solo cambia el estado físico."
             },
             {
               "label": "B",
               "option": "Diluir un refresco.",
-              "text": "Diluir significa mezclar una sustancia con otra para hacerla menos concentrada.\nSí se relaciona con mezclas y cambios físicos.\nPuede confundir porque al mezclar parece que «cambia», pero no se forma una sustancia nueva.\nSe descarta porque es una mezcla, no una reacción química."
+              "text": "Diluir significa mezclar una sustancia con otra para hacerla menos concentrada.\nSí se relaciona con mezclas y cambios físicos.\nPuede confundir porque al mezclar parece que «cambia», pero no se forma una sustancia nueva."
             },
             {
               "label": "C",
@@ -774,7 +774,7 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "Sublimación del yodo.",
-              "text": "Sublimación significa pasar de sólido a gas sin pasar por líquido.\nSí se relaciona con cambios de estado.\nPuede confundir porque el cambio es muy notorio, pero sigue siendo la misma sustancia.\nSe descarta porque no se forma una sustancia nueva."
+              "text": "Sublimación significa pasar de sólido a gas sin pasar por líquido.\nSí se relaciona con cambios de estado.\nPuede confundir porque el cambio es muy notorio, pero sigue siendo la misma sustancia."
             }
           ],
           "hint": "Busca la opción donde no solo cambie la forma o el estado, sino donde la sustancia se transforme en otra distinta.",
@@ -822,17 +822,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "2 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.",
-              "text": "Esta opción dice que reaccionan 2 mol de SO2 con 2 mol de O2 y que se forman 3 mol de SO3.\nSí se relaciona con la ecuación, pero no la interpreta bien.\nPuede confundir porque el alumno puede sumar los coeficientes y pensar que el resultado es 3.\nSe descarta porque en la ecuación el oxígeno tiene coeficiente 1, no 2, y el producto tiene coeficiente 2, no 3."
+              "text": "Esta opción dice que reaccionan 2 mol de SO2 con 2 mol de O2 y que se forman 3 mol de SO3.\nSí se relaciona con la ecuación, pero no la interpreta bien.\nPuede confundir porque el alumno puede sumar los coeficientes y pensar que el resultado es 3."
             },
             {
               "label": "B",
               "option": "4 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.",
-              "text": "Esta opción cambia todos los números de la ecuación.\nSí usa sustancias correctas, pero las cantidades no coinciden.\nPuede confundir porque parece una proporción posible, pero no es la que está escrita.\nSe descarta porque la ecuación indica 2, 1 y 2, no 4, 2 y 3."
+              "text": "Esta opción cambia todos los números de la ecuación.\nSí usa sustancias pertinentes, pero las cantidades no coinciden.\nPuede confundir porque parece una proporción posible, pero no es la que está escrita."
             },
             {
               "label": "C",
               "option": "4 mol de dióxido de azufre más 2 mol de oxígeno forman 6 mol de trióxido de azufre.",
-              "text": "Esta opción también altera por completo los coeficientes.\nSí habla de las sustancias correctas.\nPuede confundir porque algunos alumnos duplican o triplican sin revisar lo que realmente dice la ecuación.\nSe descarta porque no respeta los coeficientes originales."
+              "text": "Esta opción también altera por completo los coeficientes.\nSí habla de las sustancias pertinentes.\nPuede confundir porque algunos alumnos duplican o triplican sin revisar lo que realmente dice la ecuación."
             },
             {
               "label": "D",
@@ -884,7 +884,7 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "La evaporación del agua, el empañamiento de la plata y quemar un papel.",
-              "text": "La evaporación del agua es un cambio físico, porque solo cambia de líquido a gas.\nEl empañamiento de la plata sí se relaciona con una reacción química de oxidación.\nQuemar un papel también implica una reacción química.\nPuede confundir porque tiene dos procesos químicos, pero uno no lo es.\nSe descarta porque la evaporación no es un proceso de óxido-reducción."
+              "text": "La evaporación del agua es un cambio físico, porque solo cambia de líquido a gas.\nEl empañamiento de la plata sí se relaciona con una reacción química de oxidación.\nQuemar un papel también implica una reacción química.\nPuede confundir porque tiene dos procesos químicos, pero uno no lo es."
             },
             {
               "label": "B",
@@ -894,12 +894,12 @@ window.IFR_APP_DATA = {
             {
               "label": "C",
               "option": "El empañamiento de la plata, la oxidación de la manzana y romper un huevo.",
-              "text": "El empañamiento de la plata sí puede considerarse una reacción química.\nLa oxidación de la manzana también.\nRomper un huevo es un cambio físico, porque solo se rompe, pero no se forma una sustancia nueva.\nPuede confundir porque dos ejemplos sí son químicos.\nSe descarta porque romper un huevo no es un proceso de óxido-reducción."
+              "text": "El empañamiento de la plata sí puede considerarse una reacción química.\nLa oxidación de la manzana también.\nRomper un huevo es un cambio físico, porque solo se rompe, pero no se forma una sustancia nueva.\nPuede confundir porque dos ejemplos sí son químicos."
             },
             {
               "label": "D",
               "option": "La combustión de una vela, quemar un papel y evaporación del agua.",
-              "text": "La combustión de una vela sí es una reacción química.\nQuemar un papel también.\nLa evaporación del agua no es reacción química, solo es cambio de estado.\nPuede confundir porque tiene dos ejemplos correctos.\nSe descarta porque la evaporación no es un proceso de óxido-reducción."
+              "text": "La combustión de una vela sí es una reacción química.\nQuemar un papel también.\nLa evaporación del agua no es reacción química, solo es cambio de estado.\nPuede confundir porque tiene dos ejemplos pertinentes."
             }
           ],
           "hint": "Busca la opción donde todos los ejemplos impliquen reacción química y no solo cambio de forma o de estado.",
@@ -957,17 +957,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "cristalización",
-              "text": "La cristalización sirve para obtener sólidos disueltos en un líquido formando cristales.\nSí se relaciona con separación de mezclas, pero no con este caso.\nPuede confundir porque también es un método de separación.\nSe descarta porque la limadura de fierro no está disuelta en el agua."
+              "text": "La cristalización sirve para obtener sólidos disueltos en un líquido formando cristales.\nSí se relaciona con separación de mezclas, pero no con este caso.\nPuede confundir porque también es un método de separación."
             },
             {
               "label": "B",
               "option": "sublimación",
-              "text": "La sublimación es cuando una sustancia pasa de sólido a gas.\nSí es un cambio físico, pero no es el método para separar esta mezcla.\nPuede confundir porque habla de sólidos, y aquí también hay un sólido.\nSe descarta porque la limadura de fierro no se va a convertir en gas para separarla del agua."
+              "text": "La sublimación es cuando una sustancia pasa de sólido a gas.\nSí es un cambio físico, pero no es el método para separar esta mezcla.\nPuede confundir porque habla de sólidos, y aquí también hay un sólido."
             },
             {
               "label": "C",
               "option": "fusión",
-              "text": "La fusión es el cambio de estado de sólido a líquido.\nSe relaciona con cambios de estado, no con separación de esta mezcla.\nPuede confundir porque también es un proceso físico.\nSe descarta porque aquí no se busca derretir el fierro, sino separarlo del agua."
+              "text": "La fusión es el cambio de estado de sólido a líquido.\nSe relaciona con cambios de estado, no con separación de esta mezcla.\nPuede confundir porque también es un proceso físico."
             },
             {
               "label": "D",
@@ -977,7 +977,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "congelación",
-              "text": "La congelación es el cambio de estado de líquido a sólido.\nSí es un cambio físico, pero no el método de separación que pide el reactivo.\nPuede confundir porque interviene el agua, y el agua sí puede congelarse.\nSe descarta porque congelar no es la forma directa de separar la limadura de fierro del agua en este ejercicio."
+              "text": "La congelación es el cambio de estado de líquido a sólido.\nSí es un cambio físico, pero no el método de separación que pide el reactivo.\nPuede confundir porque interviene el agua, y el agua sí puede congelarse."
             }
           ],
           "hint": "Busca la opción que sirva para separar un sólido que no se disuelve en un líquido.",
@@ -1028,17 +1028,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "Compuestos",
-              "text": "Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.\nSí se relaciona con el tema porque también junta componentes.\nPuede confundir porque también está formado por más de una parte.\nSe descarta porque en un compuesto ya no se conservan las propiedades originales de cada sustancia, ya que se forma una sustancia nueva."
+              "text": "Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.\nSí se relaciona con el tema porque también junta componentes.\nPuede confundir porque también está formado por más de una parte."
             },
             {
               "label": "B",
               "option": "Elementos",
-              "text": "Un elemento es una sustancia pura formada por un solo tipo de átomo.\nSí se relaciona con el tema porque se compara con mezclas y compuestos.\nPuede confundir porque es una categoría básica de la materia.\nSe descarta porque el reactivo habla de dos o más componentes, y un elemento no está formado por varios componentes distintos."
+              "text": "Un elemento es una sustancia pura formada por un solo tipo de átomo.\nSí se relaciona con el tema porque se compara con mezclas y compuestos.\nPuede confundir porque es una categoría básica de la materia."
             },
             {
               "label": "C",
               "option": "Combinaciones",
-              "text": "La palabra combinación suena lógica porque habla de juntar cosas.\nSí puede parecer relacionada de manera general.\nPuede confundir porque en lenguaje común sí se usa para hablar de cosas juntas.\nSe descarta porque en Química escolar el término correcto para este caso no es combinación, sino mezcla."
+              "text": "La palabra combinación suena lógica porque habla de juntar cosas.\nSí puede parecer relacionada de manera general.\nPuede confundir porque en lenguaje común sí se usa para hablar de cosas juntas."
             },
             {
               "label": "D",
@@ -1048,7 +1048,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "Soluciones",
-              "text": "Una solución es un tipo de mezcla homogénea.\nSí se relaciona con el tema porque sí pertenece al grupo de las mezclas.\nPuede confundir porque en una solución también se conservan sustancias combinadas físicamente.\nSe descarta porque el reactivo pregunta por el nombre general de esos materiales, no por un tipo particular de mezcla."
+              "text": "Una solución es un tipo de mezcla homogénea.\nSí se relaciona con el tema porque sí pertenece al grupo de las mezclas.\nPuede confundir porque en una solución también se conservan sustancias combinadas físicamente."
             }
           ],
           "hint": "Busca la opción que nombre una unión física de sustancias, no una unión química.",
@@ -1104,22 +1104,22 @@ window.IFR_APP_DATA = {
             {
               "label": "B",
               "option": "mezclas homogéneas",
-              "text": "Una mezcla homogénea es una combinación uniforme de dos o más sustancias.\nSí se relaciona con el tema porque también habla de materiales.\nPuede confundir porque se ve como una sola fase y parece una sustancia pura.\nSe descarta porque una mezcla no es una sustancia pura, y además sí puede separarse por métodos físicos."
+              "text": "Una mezcla homogénea es una combinación uniforme de dos o más sustancias.\nSí se relaciona con el tema porque también habla de materiales.\nPuede confundir porque se ve como una sola fase y parece una sustancia pura."
             },
             {
               "label": "C",
               "option": "compuestos",
-              "text": "Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.\nSí se relaciona con el tema.\nPuede confundir porque es una sustancia pura.\nSe descarta porque un compuesto sí puede descomponerse químicamente en sustancias más simples, que son los elementos que lo forman."
+              "text": "Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.\nSí se relaciona con el tema.\nPuede confundir porque es una sustancia pura."
             },
             {
               "label": "D",
               "option": "mezclas heterogéneas",
-              "text": "Una mezcla heterogénea es una combinación donde sus componentes se distinguen.\nSí se relaciona con el tema general de la materia.\nPuede confundir porque también está formada por varias sustancias.\nSe descarta porque no es una sustancia pura y se puede separar por métodos físicos."
+              "text": "Una mezcla heterogénea es una combinación donde sus componentes se distinguen.\nSí se relaciona con el tema general de la materia.\nPuede confundir porque también está formada por varias sustancias."
             },
             {
               "label": "E",
               "option": "aleaciones",
-              "text": "Una aleación es una mezcla de metales, o de un metal con otro elemento.\nSí se relaciona con materiales y sustancias.\nPuede confundir porque algunas aleaciones parecen materiales únicos.\nSe descarta porque una aleación es una mezcla, no un elemento, y no corresponde a lo que pide el reactivo."
+              "text": "Una aleación es una mezcla de metales, o de un metal con otro elemento.\nSí se relaciona con materiales y sustancias.\nPuede confundir porque algunas aleaciones parecen materiales únicos."
             }
           ],
           "hint": "Busca la opción que represente una sustancia pura formada por un solo tipo de átomo.",
@@ -1170,17 +1170,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "pesadas y localizadas en el núcleo.",
-              "text": "Esta opción dice que los electrones tienen mucha masa y que están en el núcleo.\nSí se relaciona con el tema porque habla de partículas subatómicas.\nPuede confundir porque en el átomo sí hay partículas dentro del núcleo.\nSe descarta porque los electrones no están en el núcleo y además su masa es muy pequeña."
+              "text": "Esta opción dice que los electrones tienen mucha masa y que están en el núcleo.\nSí se relaciona con el tema porque habla de partículas subatómicas.\nPuede confundir porque en el átomo sí hay partículas dentro del núcleo."
             },
             {
               "label": "B",
               "option": "ligeras y sin carga eléctrica.",
-              "text": "Esta opción acierta en que los electrones son ligeros.\nSí se relaciona con el tema.\nPuede confundir porque mezcla una parte correcta con una parte incorrecta.\nSe descarta porque los electrones sí tienen carga eléctrica, y esa carga es negativa."
+              "text": "Esta opción coincide en que los electrones son ligeros.\nSí se relaciona con el tema.\nPuede confundir porque mezcla una parte pertinente con una parte imprecisa."
             },
             {
               "label": "C",
               "option": "pesadas y localizadas alrededor del núcleo.",
-              "text": "Esta opción pone bien la idea de que están alrededor del núcleo.\nSí se relaciona con el tema.\nPuede confundir porque una parte sí coincide con el electrón.\nSe descarta porque los electrones no son pesados, son partículas muy ligeras."
+              "text": "Esta opción pone bien la idea de que están alrededor del núcleo.\nSí se relaciona con el tema.\nPuede confundir porque una parte sí coincide con el electrón."
             },
             {
               "label": "D",
@@ -1190,7 +1190,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "neutras y localizadas en el núcleo.",
-              "text": "Esta opción dice que no tienen carga y que están en el núcleo.\nSí se relaciona con el tema.\nPuede confundir porque los neutrones sí son neutros y están en el núcleo.\nSe descarta porque esa descripción corresponde al neutrón, no al electrón."
+              "text": "Esta opción dice que no tienen carga y que están en el núcleo.\nSí se relaciona con el tema.\nPuede confundir porque los neutrones sí son neutros y están en el núcleo."
             }
           ],
           "hint": "Busca la opción que describa a la partícula que está fuera del núcleo y que tiene masa muy pequeña.",
@@ -1254,17 +1254,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "I: a, e - II: a, c - III: d, e",
-              "text": "I: a, e para electrón sí está bien, porque el electrón tiene carga negativa y masa muy pequeña.\nII: a, c para protón está mal, porque el protón no tiene carga negativa. El protón tiene carga positiva.\nIII: d, e para neutrón también está mal, porque el neutrón sí es neutro, pero no se caracteriza por masa muy pequeña como el electrón. Además está en el núcleo.\nSe descarta porque falla en protón y neutrón."
+              "text": "I: a, e para electrón sí está bien, porque el electrón tiene carga negativa y masa muy pequeña.\nII: a, c para protón está mal, porque el protón no tiene carga negativa. El protón tiene carga positiva.\nIII: d, e para neutrón también está mal, porque el neutrón sí es neutro, pero no se caracteriza por masa muy pequeña como el electrón. Además está en el núcleo."
             },
             {
               "label": "B",
               "option": "I: b, e - II: b, c - III: a, c",
-              "text": "I: b, e para electrón está mal, porque el electrón no tiene carga positiva.\nII: b, c para protón sí está bien, porque tiene carga positiva y está en el núcleo.\nIII: a, c para neutrón está mal, porque el neutrón no tiene carga negativa.\nPuede confundir porque el protón sí quedó correcto.\nSe descarta porque electrón y neutrón están mal relacionados."
+              "text": "I: b, e para electrón está mal, porque el electrón no tiene carga positiva.\nII: b, c para protón sí está bien, porque tiene carga positiva y está en el núcleo.\nIII: a, c para neutrón está mal, porque el neutrón no tiene carga negativa.\nPuede confundir porque el protón sí quedó pertinente."
             },
             {
               "label": "C",
               "option": "I: a, e - II: a, c - III: b, e",
-              "text": "I: a, e para electrón sí está bien.\nII: a, c para protón está mal, porque el protón no es negativo.\nIII: b, e para neutrón está mal, porque el neutrón no es positivo ni se identifica por masa muy pequeña.\nSe descarta porque sólo el electrón quedó bien."
+              "text": "I: a, e para electrón sí está bien.\nII: a, c para protón está mal, porque el protón no es negativo.\nIII: b, e para neutrón está mal, porque el neutrón no es positivo ni se identifica por masa muy pequeña."
             },
             {
               "label": "D",
@@ -1274,7 +1274,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "I: b, e - II: b, e - III: d, e",
-              "text": "I: b, e para electrón está mal, porque el electrón no es positivo.\nII: b, e para protón está mal, porque aunque sí es positivo, no se describe por masa muy pequeña y además falta ubicarlo en el núcleo.\nIII: d, e para neutrón está mal, porque sí es neutro, pero no corresponde masa muy pequeña y falta su ubicación en el núcleo.\nSe descarta porque las relaciones no corresponden bien."
+              "text": "I: b, e para electrón está mal, porque el electrón no es positivo.\nII: b, e para protón está mal, porque aunque sí es positivo, no se describe por masa muy pequeña y además falta ubicarlo en el núcleo.\nIII: d, e para neutrón está mal, porque sí es neutro, pero no corresponde masa muy pequeña y falta su ubicación en el núcleo."
             }
           ],
           "hint": "Primero identifica cuál partícula es negativa, cuál es positiva y cuál no tiene carga. Después revisa cuáles están dentro del núcleo.",
@@ -1326,17 +1326,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "S, P, Ca, B",
-              "text": "Esta opción propone S para sodio y P para potasio.\nSí se relaciona con el tema porque usa símbolos químicos.\nPuede confundir porque la primera letra del nombre a veces parece suficiente.\nSe descarta porque S es azufre, no sodio, y P es fósforo, no potasio."
+              "text": "Esta opción propone S para sodio y P para potasio.\nSí se relaciona con el tema porque usa símbolos químicos.\nPuede confundir porque la primera letra del nombre a veces parece suficiente."
             },
             {
               "label": "B",
               "option": "S, K, C, B",
-              "text": "Aquí pone bien K para potasio y B para boro.\nSí se relaciona con el tema.\nPuede confundir porque mezcla símbolos correctos con incorrectos.\nSe descarta porque S no es sodio y C no es calcio. C corresponde a carbono."
+              "text": "Aquí pone bien K para potasio y B para boro.\nSí se relaciona con el tema.\nPuede confundir porque mezcla símbolos pertinentes con imprecisos."
             },
             {
               "label": "C",
               "option": "Na, P, Ca, B",
-              "text": "Aquí pone bien Na para sodio, Ca para calcio y B para boro.\nSí se relaciona directamente con el tema.\nPuede confundir porque tiene tres respuestas correctas y sólo una incorrecta.\nSe descarta porque P no es potasio. P es fósforo. El símbolo de potasio es K."
+              "text": "Aquí pone bien Na para sodio, Ca para calcio y B para boro.\nSí se relaciona directamente con el tema.\nPuede confundir porque tiene tres respuestas pertinentes y sólo una imprecisa."
             },
             {
               "label": "D",
@@ -1346,7 +1346,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "Na, K, C, B",
-              "text": "Aquí pone bien Na para sodio, K para potasio y B para boro.\nSí se relaciona con el tema.\nPuede confundir porque sólo cambia un símbolo y parece detalle menor.\nSe descarta porque C no es calcio. El símbolo correcto de calcio es Ca."
+              "text": "Aquí pone bien Na para sodio, K para potasio y B para boro.\nSí se relaciona con el tema.\nPuede confundir porque sólo cambia un símbolo y parece detalle menor."
             }
           ],
           "hint": "Revisa cuál opción usa dos letras para sodio y calcio, y recuerda que potasio no se representa con P.",
@@ -1398,12 +1398,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "sólo se modifica la temperatura del agua.",
-              "text": "Esta opción dice que lo único que cambia es la temperatura.\nSí se relaciona con el tema porque en los cambios de estado sí interviene la temperatura.\nPuede confundir porque muchas veces la condensación ocurre cuando baja la temperatura.\nSe descarta porque el punto central no es sólo que cambie la temperatura, sino que el agua pasa de gas a líquido."
+              "text": "Esta opción dice que lo único que cambia es la temperatura.\nSí se relaciona con el tema porque en los cambios de estado sí interviene la temperatura.\nPuede confundir porque muchas veces la condensación ocurre cuando baja la temperatura."
             },
             {
               "label": "B",
               "option": "cambia la estructura del agua.",
-              "text": "Esta opción dice que cambia la estructura de la sustancia.\nSí se relaciona con el tema porque en Química se revisa si una sustancia cambia o sigue siendo la misma.\nPuede confundir porque suena a que hubo una transformación importante.\nSe descarta porque en la condensación el agua sigue siendo agua. No cambia su composición."
+              "text": "Esta opción dice que cambia la estructura de la sustancia.\nSí se relaciona con el tema porque en Química se revisa si una sustancia cambia o sigue siendo la misma.\nPuede confundir porque suena a que hubo una transformación importante."
             },
             {
               "label": "C",
@@ -1413,12 +1413,12 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "se altera la naturaleza íntima del agua.",
-              "text": "Esta opción dice que cambia la esencia o composición del agua.\nSí se relaciona con el tema porque eso pasa en un cambio químico.\nPuede confundir porque suena formal y parece explicación correcta.\nSe descarta porque en un fenómeno físico no cambia la naturaleza de la sustancia."
+              "text": "Esta opción dice que cambia la esencia o composición del agua.\nSí se relaciona con el tema porque eso pasa en un cambio químico.\nPuede confundir porque suena formal y parece explicación pertinente."
             },
             {
               "label": "E",
               "option": "favorece el crecimiento de las plantas.",
-              "text": "Esta opción habla de un posible efecto del agua en la naturaleza.\nSí tiene relación general con el agua, pero no explica el fenómeno.\nPuede confundir porque suena verdadera en otro contexto.\nSe descarta porque no responde por qué la condensación es un cambio físico."
+              "text": "Esta opción habla de un posible efecto del agua en la naturaleza.\nSí tiene relación general con el agua, pero no explica el fenómeno.\nPuede confundir porque suena verdadera en otro contexto."
             }
           ],
           "hint": "Busca la opción donde la sustancia siga siendo la misma, pero pase de gas a líquido.",
@@ -1469,12 +1469,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "destilación",
-              "text": "La destilación es un método para separar mezclas, por ejemplo líquidos con distintos puntos de ebullición.\nSí se relaciona con transformaciones de la materia.\nPuede confundir porque implica calentar y enfriar sustancias.\nSe descarta porque no forma una sustancia nueva, sólo separa componentes."
+              "text": "La destilación es un método para separar mezclas, por ejemplo líquidos con distintos puntos de ebullición.\nSí se relaciona con transformaciones de la materia.\nPuede confundir porque implica calentar y enfriar sustancias."
             },
             {
               "label": "B",
               "option": "sublimación",
-              "text": "La sublimación es el paso de sólido a gas sin pasar por líquido.\nSí se relaciona con cambios de la materia.\nPuede confundir porque sí hay una transformación visible.\nSe descarta porque sólo cambia el estado físico, no la composición de la sustancia."
+              "text": "La sublimación es el paso de sólido a gas sin pasar por líquido.\nSí se relaciona con cambios de la materia.\nPuede confundir porque sí hay una transformación visible."
             },
             {
               "label": "C",
@@ -1484,12 +1484,12 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "evaporación",
-              "text": "La evaporación es el paso de líquido a gas.\nSí se relaciona con cambios de estado.\nPuede confundir porque también ocurre por calentamiento.\nSe descarta porque sólo cambia el estado físico de la sustancia."
+              "text": "La evaporación es el paso de líquido a gas.\nSí se relaciona con cambios de estado.\nPuede confundir porque también ocurre por calentamiento."
             },
             {
               "label": "E",
               "option": "condensación",
-              "text": "La condensación es el paso de gas a líquido.\nSí se relaciona con cambios de estado.\nPuede confundir porque el cambio se nota fácilmente.\nSe descarta porque no se forma una sustancia nueva, sigue siendo la misma materia."
+              "text": "La condensación es el paso de gas a líquido.\nSí se relaciona con cambios de estado.\nPuede confundir porque el cambio se nota fácilmente."
             }
           ],
           "hint": "Busca la opción donde no sólo cambie el estado o la forma, sino donde aparezcan sustancias nuevas.",
@@ -1540,12 +1540,12 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "reactivos - mezclas",
-              "text": "Reactivos sí es un término correcto para las sustancias que participan al inicio de una reacción.\nSí se relaciona con el tema.\nPuede confundir porque la primera parte está bien.\nSe descarta porque las sustancias que se forman al final no se llaman mezclas, sino productos."
+              "text": "Reactivos sí es un término pertinente para las sustancias que participan al inicio de una reacción.\nSí se relaciona con el tema.\nPuede confundir porque la primera parte está bien."
             },
             {
               "label": "B",
               "option": "elementos - moléculas",
-              "text": "Elementos y moléculas son conceptos de Química, por eso suenan posibles.\nSí se relaciona con el tema de sustancias.\nPuede confundir porque muchas reacciones involucran elementos y moléculas.\nSe descarta porque el reactivo no pregunta tipos de sustancia, sino la función que tienen dentro de una reacción química."
+              "text": "Elementos y moléculas son conceptos de Química, por eso suenan posibles.\nSí se relaciona con el tema de sustancias.\nPuede confundir porque muchas reacciones involucran elementos y moléculas."
             },
             {
               "label": "C",
@@ -1555,12 +1555,12 @@ window.IFR_APP_DATA = {
             {
               "label": "D",
               "option": "moléculas - elementos",
-              "text": "Moléculas y elementos también son conceptos químicos reales.\nSí se relaciona con el tema general.\nPuede confundir porque una sustancia puede estar formada por moléculas o por elementos.\nSe descarta porque esos términos no indican el papel de entrada y salida dentro de una reacción química."
+              "text": "Moléculas y elementos también son conceptos químicos reales.\nSí se relaciona con el tema general.\nPuede confundir porque una sustancia puede estar formada por moléculas o por elementos."
             },
             {
               "label": "E",
               "option": "productos - mezclas",
-              "text": "Productos sí es un término químico correcto, pero corresponde a las sustancias formadas al final.\nSí se relaciona con el tema.\nPuede confundir porque usa una palabra correcta de reacción química.\nSe descarta porque invierte la lógica: las sustancias que se combinan primero no son productos, y al final no se habla de mezclas."
+              "text": "Productos sí es un término químico pertinente, pero corresponde a las sustancias formadas al final.\nSí se relaciona con el tema.\nPuede confundir porque usa una palabra pertinente de reacción química."
             }
           ],
           "hint": "Piensa en una reacción como un proceso: primero entran unas sustancias y al final salen otras distintas.",
@@ -1610,17 +1610,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "mayor a 7",
-              "text": "Esta opción dice que la sustancia tiene un pH arriba de 7.\nSí se relaciona con el tema porque habla directamente del pH.\nPuede confundir porque sí existe una clasificación por arriba de 7.\nSe descarta porque un pH mayor que 7 corresponde a sustancias básicas, no ácidas."
+              "text": "Esta opción dice que la sustancia tiene un pH arriba de 7.\nSí se relaciona con el tema porque habla directamente del pH.\nPuede confundir porque sí existe una clasificación por arriba de 7."
             },
             {
               "label": "B",
               "option": "mayor a 14",
-              "text": "Esta opción dice que el pH es superior a 14.\nSí se relaciona con el tema porque sigue hablando de pH.\nPuede confundir porque hace pensar que mientras más alto sea, más fuerte es la sustancia.\nSe descarta porque en la escala escolar de pH normalmente se trabaja de 0 a 14, y además las sustancias ácidas no están por arriba de 7."
+              "text": "Esta opción dice que el pH es superior a 14.\nSí se relaciona con el tema porque sigue hablando de pH.\nPuede confundir porque hace pensar que mientras más alto sea, más fuerte es la sustancia."
             },
             {
               "label": "C",
               "option": "igual a 7",
-              "text": "Esta opción dice que el pH vale exactamente 7.\nSí se relaciona con el tema.\nPuede confundir porque 7 está justo en medio de la escala.\nSe descarta porque un pH de 7 corresponde a una sustancia neutra, no ácida."
+              "text": "Esta opción dice que el pH vale exactamente 7.\nSí se relaciona con el tema.\nPuede confundir porque 7 está justo en medio de la escala."
             },
             {
               "label": "D",
@@ -1630,7 +1630,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "igual a 14",
-              "text": "Esta opción dice que el pH es exactamente 14.\nSí se relaciona con el tema porque sigue dentro de la escala de pH.\nPuede confundir porque 14 es un número muy marcado dentro de la escala.\nSe descarta porque ese valor corresponde a una sustancia muy básica, no ácida."
+              "text": "Esta opción dice que el pH es exactamente 14.\nSí se relaciona con el tema porque sigue dentro de la escala de pH.\nPuede confundir porque 14 es un número muy marcado dentro de la escala."
             }
           ],
           "hint": "Recuerda cómo se divide la escala de pH: abajo de 7, en 7 y arriba de 7.",
@@ -1684,7 +1684,7 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "neutralización",
-              "text": "Una neutralización ocurre cuando un ácido reacciona con una base y normalmente se forma sal y agua.\nSí se relaciona con tipos de reacción química.\nPuede confundir porque también es una reacción muy conocida.\nSe descarta porque en la ecuación no aparece una reacción entre ácido y base."
+              "text": "Una neutralización ocurre cuando un ácido reacciona con una base y normalmente se forma sal y agua.\nSí se relaciona con tipos de reacción química.\nPuede confundir porque también es una reacción muy conocida."
             },
             {
               "label": "B",
@@ -1694,17 +1694,17 @@ window.IFR_APP_DATA = {
             {
               "label": "C",
               "option": "descomposición",
-              "text": "Una reacción de descomposición pasa cuando una sola sustancia se rompe en sustancias más simples.\nSí se relaciona con tipos de reacción.\nPuede confundir porque al final sí aparecen productos.\nSe descarta porque aquí no se está rompiendo una sola sustancia, sino combinando sustancias."
+              "text": "Una reacción de descomposición pasa cuando una sola sustancia se rompe en sustancias más simples.\nSí se relaciona con tipos de reacción.\nPuede confundir porque al final sí aparecen productos."
             },
             {
               "label": "D",
               "option": "desplazamiento",
-              "text": "En una reacción de desplazamiento, un elemento reemplaza a otro dentro de un compuesto.\nSí se relaciona con clasificación de reacciones.\nPuede confundir porque participa un elemento como el hierro.\nSe descarta porque aquí no se ve que un elemento saque a otro de un compuesto."
+              "text": "En una reacción de desplazamiento, un elemento reemplaza a otro dentro de un compuesto.\nSí se relaciona con clasificación de reacciones.\nPuede confundir porque participa un elemento como el hierro."
             },
             {
               "label": "E",
               "option": "sustitución",
-              "text": "La sustitución se parece a desplazamiento, porque una sustancia ocupa el lugar de otra.\nSí se relaciona con reacciones químicas.\nPuede confundir porque suena como intercambio.\nSe descarta porque la ecuación muestra formación de un óxido, no reemplazo de una sustancia por otra."
+              "text": "La sustitución se parece a desplazamiento, porque una sustancia ocupa el lugar de otra.\nSí se relaciona con reacciones químicas.\nPuede confundir porque suena como intercambio."
             }
           ],
           "hint": "Busca la opción que se relaciona con la combinación de un metal con oxígeno para formar un óxido.",
@@ -1755,17 +1755,17 @@ window.IFR_APP_DATA = {
             {
               "label": "A",
               "option": "anhídridos",
-              "text": "Los anhídridos son óxidos de no metales.\nSí se relaciona con reacciones con oxígeno.\nPuede confundir porque también se forman con oxígeno.\nSe descarta porque el reactivo habla de metales, no de no metales."
+              "text": "Los anhídridos son óxidos de no metales.\nSí se relaciona con reacciones con oxígeno.\nPuede confundir porque también se forman con oxígeno."
             },
             {
               "label": "B",
               "option": "sales neutras",
-              "text": "Las sales neutras son sustancias que se forman en otros tipos de reacciones, por ejemplo entre ácidos y bases.\nSí se relaciona con sustancias químicas.\nPuede confundir porque también son compuestos químicos.\nSe descarta porque no es el producto directo de metal más oxígeno."
+              "text": "Las sales neutras son sustancias que se forman en otros tipos de reacciones, por ejemplo entre ácidos y bases.\nSí se relaciona con sustancias químicas.\nPuede confundir porque también son compuestos químicos."
             },
             {
               "label": "C",
               "option": "sales ácidas",
-              "text": "Las sales ácidas también son compuestos químicos, pero se forman en otro tipo de procesos.\nSí se relaciona con clasificación de sustancias.\nPuede confundir porque el nombre suena técnico y parece específico.\nSe descarta porque no corresponde a la reacción entre un metal y el oxígeno."
+              "text": "Las sales ácidas también son compuestos químicos, pero se forman en otro tipo de procesos.\nSí se relaciona con clasificación de sustancias.\nPuede confundir porque el nombre suena técnico y parece específico."
             },
             {
               "label": "D",
@@ -1775,7 +1775,7 @@ window.IFR_APP_DATA = {
             {
               "label": "E",
               "option": "peróxidos",
-              "text": "Los peróxidos son compuestos que contienen oxígeno, pero no son la respuesta general que se pide aquí.\nSí se relaciona con sustancias que contienen oxígeno.\nPuede confundir porque también llevan oxígeno y su nombre se parece a óxido.\nSe descarta porque el reactivo pregunta por la formación común al reaccionar oxígeno con metales, y esa categoría general es óxidos básicos."
+              "text": "Los peróxidos son compuestos que contienen oxígeno, pero no son la respuesta general que se pide aquí.\nSí se relaciona con sustancias que contienen oxígeno.\nPuede confundir porque también llevan oxígeno y su nombre se parece a óxido."
             }
           ],
           "hint": "Fíjate en la opción que nombre al compuesto que resulta de unir un metal con oxígeno.",

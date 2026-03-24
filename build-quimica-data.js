@@ -200,6 +200,7 @@ function sanitizeAnalysisParagraph(paragraph) {
   if (
     /respuesta correcta|la correcta es|opcion correcta|esta es la correcta|opcion buena/.test(normalized) ||
     /^se conserva\b/.test(normalized) ||
+    /^se descarta\b/.test(normalized) ||
     /\bmas precisa\b/.test(normalized) ||
     /\bmejor coincide\b/.test(normalized) ||
     /\bjusto describe\b/.test(normalized) ||
@@ -210,7 +211,16 @@ function sanitizeAnalysisParagraph(paragraph) {
 
   return paragraph
     .replace(/^Esta opción apunta a la idea correcta:\s*/i, 'Esta opción reúne varios elementos relacionados con el tema. ')
-    .replace(/^Esta opcion apunta a la idea correcta:\s*/i, 'Esta opción reúne varios elementos relacionados con el tema. ');
+    .replace(/^Esta opcion apunta a la idea correcta:\s*/i, 'Esta opción reúne varios elementos relacionados con el tema. ')
+    .replace(/\bcorrectas\b/gi, 'pertinentes')
+    .replace(/\bcorrectos\b/gi, 'pertinentes')
+    .replace(/\bcorrecta\b/gi, 'pertinente')
+    .replace(/\bcorrecto\b/gi, 'pertinente')
+    .replace(/\bincorrectas\b/gi, 'imprecisas')
+    .replace(/\bincorrectos\b/gi, 'imprecisos')
+    .replace(/\bincorrecta\b/gi, 'imprecisa')
+    .replace(/\bincorrecto\b/gi, 'impreciso')
+    .replace(/\bacierta\b/gi, 'coincide');
 }
 
 function sanitizeAnalysisText(text) {
@@ -222,6 +232,7 @@ function sanitizeAnalysisText(text) {
       const normalized = normalizeForToken(line);
       return !(
         /^se conserva\b/.test(normalized) ||
+        /^se descarta\b/.test(normalized) ||
         /respuesta correcta|la correcta es|opcion correcta|esta es la correcta|opcion buena/.test(normalized) ||
         /\bcoincide con la descripcion correcta\b/.test(normalized) ||
         /\bcoinciden correctamente\b/.test(normalized) ||
@@ -238,7 +249,36 @@ function sanitizeAnalysisText(text) {
   return lines
     .join('\n')
     .replace(/^Se conserva.*$/gim, '')
+    .replace(/^Se descarta.*$/gim, '')
     .replace(/^No hay palabra incorrecta aquí\..*$/gim, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function finalizeAnalysisText(text) {
+  return String(text || '')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .filter((line) => {
+      const normalized = normalizeForToken(line);
+      return !(
+        /^se conserva\b/.test(normalized) ||
+        /^se descarta\b/.test(normalized) ||
+        /respuesta correcta|la correcta es|opcion correcta|esta es la correcta|opcion buena/.test(normalized)
+      );
+    })
+    .map((line) => line
+      .replace(/\bcorrectas\b/gi, 'pertinentes')
+      .replace(/\bcorrectos\b/gi, 'pertinentes')
+      .replace(/\bcorrecta\b/gi, 'pertinente')
+      .replace(/\bcorrecto\b/gi, 'pertinente')
+      .replace(/\bincorrectas\b/gi, 'imprecisas')
+      .replace(/\bincorrectos\b/gi, 'imprecisos')
+      .replace(/\bincorrecta\b/gi, 'imprecisa')
+      .replace(/\bincorrecto\b/gi, 'impreciso')
+      .replace(/\bacierta\b/gi, 'coincide'))
+    .join('\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
@@ -316,7 +356,10 @@ function parseExercise(blockLines, guide, order) {
   const optionsAnalysis = parseOptionsAnalysis(
     extractSection(blockLines, 'Desarrollo y descarte de opciones:', ['Opción correcta:']),
     optionMap
-  );
+  ).map((item) => ({
+    ...item,
+    text: finalizeAnalysisText(item.text)
+  }));
   const hint = joinLines(extractSection(blockLines, 'Pista:', []));
 
   return {
