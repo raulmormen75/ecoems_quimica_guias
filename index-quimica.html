@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IFR | Química</title>
+  <meta name="description" content="Aplicación de estudio razonado para Química ECOEMS 2026.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="quimica-styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand">
+        <img src="escudo-ifr-real.jpg" alt="Escudo del Instituto Fernando Ramírez">
+        <div>
+          <small>ECOEMS 2026</small>
+          <strong>Instituto Fernando Ramírez</strong>
+          <span>Química · estudio razonado por guía y tema</span>
+        </div>
+      </div>
+      <div class="top-stats" id="topStats"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="topAnchor">
+      <div class="hero-copy">
+        <span class="eyebrow">Guías 1 y 2 · Química</span>
+        <h1>Estudia Química sin perder el orden real de las guías.</h1>
+        <p>Esta app reúne los reactivos resueltos de Química ECOEMS 2026 en una interfaz de consulta clara, sobria y responsiva. La intención es apoyar el razonamiento del alumno, no anticipar la respuesta.</p>
+        <p><strong>Qué verás:</strong> reactivo, tema, opciones y tres apoyos puntuales: «Ver qué pide», «Analizar opciones» y «Ver pista». No hay validación automática, puntuación ni solución visible.</p>
+        <div class="hero-actions">
+          <button class="primary" type="button" onclick="window.applyPreset('guia-1')">Ir a Guía 1</button>
+          <button class="secondary" type="button" onclick="window.applyPreset('guia-2')">Ir a Guía 2</button>
+          <button type="button" onclick="window.applyPreset('temas')">Explorar temas</button>
+        </div>
+        <div class="hero-grid">
+          <article class="info-card">
+            <h3>Consulta disciplinada</h3>
+            <p>La secuencia de cada guía se mantiene intacta del reactivo 41 al 52. Filtrar no cambia el orden de origen.</p>
+          </article>
+          <article class="info-card">
+            <h3>Apoyos neutrales</h3>
+            <p>Los paneles ayudan a entender el planteamiento y a revisar opciones sin revelar una solución cerrada.</p>
+          </article>
+          <article class="info-card">
+            <h3>Uso rápido</h3>
+            <p>Filtra por guía o tema, busca conceptos y alterna entre vista general y vista por temas según tu ruta de estudio.</p>
+          </article>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 460 360" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bgPanel" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="100%" stop-color="#eef2ff"/>
+              </linearGradient>
+              <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#2B2F8F"/>
+                <stop offset="100%" stop-color="#1C1E5A"/>
+              </linearGradient>
+            </defs>
+            <rect x="18" y="18" width="424" height="324" rx="28" fill="url(#bgPanel)" stroke="rgba(20,20,58,.12)"/>
+            <circle cx="332" cy="92" r="54" fill="rgba(44,229,30,.12)"/>
+            <circle cx="126" cy="266" r="68" fill="rgba(43,47,143,.08)"/>
+            <g transform="translate(44 42)">
+              <rect x="0" y="0" width="164" height="104" rx="24" fill="#fff" stroke="rgba(20,20,58,.12)"/>
+              <text x="22" y="32" fill="#1C1E5A" font-size="18" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">Mapa de estudio</text>
+              <rect x="22" y="48" width="120" height="12" rx="6" fill="rgba(28,30,90,.12)"/>
+              <rect x="22" y="68" width="92" height="10" rx="5" fill="rgba(28,30,90,.08)"/>
+              <rect x="22" y="86" width="110" height="10" rx="5" fill="rgba(44,229,30,.22)"/>
+            </g>
+            <g transform="translate(254 54)">
+              <circle cx="66" cy="66" r="42" fill="rgba(28,30,90,.04)" stroke="rgba(28,30,90,.18)" stroke-width="2"/>
+              <circle cx="66" cy="66" r="18" fill="url(#accent)"/>
+              <circle cx="28" cy="44" r="10" fill="#2CE51E"/>
+              <circle cx="104" cy="42" r="10" fill="#2B2F8F"/>
+              <circle cx="88" cy="104" r="10" fill="#2CE51E"/>
+              <circle cx="36" cy="108" r="10" fill="#2B2F8F"/>
+              <path d="M38 48 58 60M94 46 78 60M84 96 72 82M46 96 58 82" stroke="#1C1E5A" stroke-width="3" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(60 176)">
+              <rect x="0" y="0" width="338" height="120" rx="24" fill="#fff" stroke="rgba(20,20,58,.12)"/>
+              <text x="24" y="30" fill="#1C1E5A" font-size="16" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">Tema y reactivo siempre visibles</text>
+              <rect x="24" y="46" width="112" height="30" rx="15" fill="rgba(28,30,90,.08)"/>
+              <text x="40" y="66" fill="#1C1E5A" font-size="13" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">Guía 1 · Reactivo 41</text>
+              <rect x="24" y="88" width="86" height="12" rx="6" fill="rgba(44,229,30,.22)"/>
+              <rect x="126" y="88" width="78" height="12" rx="6" fill="rgba(28,30,90,.12)"/>
+              <rect x="220" y="88" width="90" height="12" rx="6" fill="rgba(28,30,90,.08)"/>
+              <g transform="translate(246 42)">
+                <rect x="0" y="0" width="72" height="28" rx="14" fill="#1C1E5A"/>
+                <text x="36" y="18" fill="#fff" font-size="12" font-weight="800" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif">Ver pista</text>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </aside>
+    </section>
+
+    <section class="filters">
+      <div class="filter-panel">
+        <div class="control-block">
+          <span class="control-label">Secciones</span>
+          <nav class="preset-nav" id="presetNav"></nav>
+        </div>
+        <div class="filter-grid">
+          <div class="control-block">
+            <span class="control-label">Búsqueda</span>
+            <input id="searchInput" class="search-input" type="search" placeholder="Buscar por tema, reactivo o palabra del planteamiento">
+          </div>
+          <div class="control-block">
+            <span class="control-label">Guía</span>
+            <div class="guide-chips" id="guideChips"></div>
+          </div>
+        </div>
+        <div class="control-block">
+          <span class="control-label">Tema</span>
+          <div class="topic-chips" id="topicChips"></div>
+        </div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+    </section>
+
+    <section class="content" id="content"></section>
+    <section class="empty" id="empty" hidden>
+      <h2>No hay reactivos con ese filtro.</h2>
+      <p>Ajusta la búsqueda, cambia el tema o vuelve a una vista más amplia.</p>
+    </section>
+    <section class="footer-note">
+      Esta herramienta conserva el contenido fuente de las guías y organiza la consulta para estudiar con más orden. Si necesitas revisar una idea con calma, abre los apoyos de la ficha en el orden que te convenga.
+    </section>
+  </main>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Volver al inicio" title="Volver al inicio">↑</button>
+
+  <script src="quimica-data.js"></script>
+  <script src="quimica-app.js"></script>
+</body>
+</html>

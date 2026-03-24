@@ -1,0 +1,763 @@
+# Guía 2
+
+Temática del ejercicio: Métodos de separación de mezclas
+
+Reactivo: 41
+Fuente: Guía 2
+
+Planteamiento del problema:
+Para separar limadura de fierro mezclada con agua se emplea la
+
+Opciones:
+A) cristalización
+B) sublimación
+C) fusión
+D) decantación
+E) congelación
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar el método de separación que sí permite separar una mezcla de un sólido insoluble y un líquido.
+
+Desarrollo y descarte de opciones:
+
+A) cristalización
+La cristalización sirve para obtener sólidos disueltos en un líquido formando cristales.
+Sí se relaciona con separación de mezclas, pero no con este caso.
+Puede confundir porque también es un método de separación.
+Se descarta porque la limadura de fierro no está disuelta en el agua.
+
+B) sublimación
+La sublimación es cuando una sustancia pasa de sólido a gas.
+Sí es un cambio físico, pero no es el método para separar esta mezcla.
+Puede confundir porque habla de sólidos, y aquí también hay un sólido.
+Se descarta porque la limadura de fierro no se va a convertir en gas para separarla del agua.
+
+C) fusión
+La fusión es el cambio de estado de sólido a líquido.
+Se relaciona con cambios de estado, no con separación de esta mezcla.
+Puede confundir porque también es un proceso físico.
+Se descarta porque aquí no se busca derretir el fierro, sino separarlo del agua.
+
+D) decantación
+La decantación sirve para separar un sólido insoluble de un líquido, o dos líquidos que no se mezclan, aprovechando que uno queda abajo y el otro arriba.
+Sí se relaciona directamente con el tema.
+Puede confundir porque muchas veces se enseña más con agua y arena, pero la lógica es la misma: el sólido queda separado del líquido.
+Se conserva porque la limadura de fierro no se disuelve en el agua y puede quedar en el fondo para después separar el líquido.
+
+E) congelación
+La congelación es el cambio de estado de líquido a sólido.
+Sí es un cambio físico, pero no el método de separación que pide el reactivo.
+Puede confundir porque interviene el agua, y el agua sí puede congelarse.
+Se descarta porque congelar no es la forma directa de separar la limadura de fierro del agua en este ejercicio.
+
+Opción correcta:
+D) decantación
+
+Argumento:
+La respuesta correcta es decantación porque la mezcla está formada por agua y un sólido que no se disuelve. En ese tipo de casos, el sólido puede quedar separado del líquido y entonces se retira el agua con cuidado. Las otras opciones hablan de formar cristales o de cambios de estado, pero no resuelven la separación de esta mezcla como sí lo hace la decantación.
+
+Pista:
+Busca la opción que sirva para separar un sólido que no se disuelve en un líquido.
+
+---
+---
+
+Temática del ejercicio: Mezclas, compuestos y elementos
+
+Reactivo: 42
+Fuente: Guía 2
+
+Planteamiento del problema:
+¿Qué nombre reciben los materiales formados por dos o más componentes, en los cuales éstos conservan sus propiedades originales?
+
+Opciones:
+A) Compuestos
+B) Elementos
+C) Combinaciones
+D) Mezclas
+E) Soluciones
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar el concepto correcto para materiales formados por dos o más componentes que conservan sus propiedades originales.
+
+Desarrollo y descarte de opciones:
+
+A) Compuestos
+Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.
+Sí se relaciona con el tema porque también junta componentes.
+Puede confundir porque también está formado por más de una parte.
+Se descarta porque en un compuesto ya no se conservan las propiedades originales de cada sustancia, ya que se forma una sustancia nueva.
+
+B) Elementos
+Un elemento es una sustancia pura formada por un solo tipo de átomo.
+Sí se relaciona con el tema porque se compara con mezclas y compuestos.
+Puede confundir porque es una categoría básica de la materia.
+Se descarta porque el reactivo habla de dos o más componentes, y un elemento no está formado por varios componentes distintos.
+
+C) Combinaciones
+La palabra combinación suena lógica porque habla de juntar cosas.
+Sí puede parecer relacionada de manera general.
+Puede confundir porque en lenguaje común sí se usa para hablar de cosas juntas.
+Se descarta porque en Química escolar el término correcto para este caso no es combinación, sino mezcla.
+
+D) Mezclas
+Una mezcla se forma cuando se juntan dos o más sustancias sin que pierdan sus propiedades originales.
+Sí se relaciona directamente con lo que dice el reactivo.
+Puede confundir porque algunas personas la confunden con compuesto.
+Se conserva porque justo describe materiales donde los componentes siguen siendo los mismos aunque estén juntos.
+
+E) Soluciones
+Una solución es un tipo de mezcla homogénea.
+Sí se relaciona con el tema porque sí pertenece al grupo de las mezclas.
+Puede confundir porque en una solución también se conservan sustancias combinadas físicamente.
+Se descarta porque el reactivo pregunta por el nombre general de esos materiales, no por un tipo particular de mezcla.
+
+Opción correcta:
+D) Mezclas
+
+Argumento:
+La respuesta correcta es mezclas porque una mezcla se forma al unir dos o más sustancias sin que cambien sus propiedades originales. Por ejemplo, agua con arena sigue teniendo agua y arena, no aparece una sustancia nueva. En cambio, en un compuesto sí hay unión química y ya no se conservan igual las propiedades iniciales.
+
+Pista:
+Busca la opción que nombre una unión física de sustancias, no una unión química.
+
+---
+---
+
+Temática del ejercicio: Mezclas, compuestos y elementos
+
+Reactivo: 43
+Fuente: Guía 2
+
+Planteamiento del problema:
+Las sustancias que no pueden ser descompuestas en otras más simples por métodos químicos se llaman
+
+Opciones:
+A) elementos
+B) mezclas homogéneas
+C) compuestos
+D) mezclas heterogéneas
+E) aleaciones
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué tipo de sustancia no se puede descomponer químicamente en otra más simple.
+
+Desarrollo y descarte de opciones:
+
+A) elementos
+Un elemento es una sustancia pura formada por un solo tipo de átomo.
+Sí se relaciona directamente con el tema.
+Puede confundir porque a veces se piensa que todo se puede dividir en partes más pequeñas.
+Se conserva porque, en Química, un elemento no puede descomponerse en sustancias más simples por métodos químicos comunes.
+
+B) mezclas homogéneas
+Una mezcla homogénea es una combinación uniforme de dos o más sustancias.
+Sí se relaciona con el tema porque también habla de materiales.
+Puede confundir porque se ve como una sola fase y parece una sustancia pura.
+Se descarta porque una mezcla no es una sustancia pura, y además sí puede separarse por métodos físicos.
+
+C) compuestos
+Un compuesto es una sustancia formada por dos o más elementos unidos químicamente.
+Sí se relaciona con el tema.
+Puede confundir porque es una sustancia pura.
+Se descarta porque un compuesto sí puede descomponerse químicamente en sustancias más simples, que son los elementos que lo forman.
+
+D) mezclas heterogéneas
+Una mezcla heterogénea es una combinación donde sus componentes se distinguen.
+Sí se relaciona con el tema general de la materia.
+Puede confundir porque también está formada por varias sustancias.
+Se descarta porque no es una sustancia pura y se puede separar por métodos físicos.
+
+E) aleaciones
+Una aleación es una mezcla de metales, o de un metal con otro elemento.
+Sí se relaciona con materiales y sustancias.
+Puede confundir porque algunas aleaciones parecen materiales únicos.
+Se descarta porque una aleación es una mezcla, no un elemento, y no corresponde a lo que pide el reactivo.
+
+Opción correcta:
+A) elementos
+
+Argumento:
+La respuesta correcta es elementos porque un elemento es la forma más simple de una sustancia desde el punto de vista químico. No se puede descomponer en otra sustancia más sencilla por métodos químicos. En cambio, los compuestos sí pueden separarse químicamente en elementos, y las mezclas se separan por métodos físicos.
+
+Pista:
+Busca la opción que represente una sustancia pura formada por un solo tipo de átomo.
+
+---
+---
+
+Temática del ejercicio: Estructura atómica y partículas subatómicas
+
+Reactivo: 44
+Fuente: Guía 2
+
+Planteamiento del problema:
+Los electrones son partículas subatómicas
+
+Opciones:
+A) pesadas y localizadas en el núcleo.
+B) ligeras y sin carga eléctrica.
+C) pesadas y localizadas alrededor del núcleo.
+D) ligeras y localizadas alrededor del núcleo.
+E) neutras y localizadas en el núcleo.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuáles son las características correctas de los electrones.
+
+Desarrollo y descarte de opciones:
+
+A) pesadas y localizadas en el núcleo.
+Esta opción dice que los electrones tienen mucha masa y que están en el núcleo.
+Sí se relaciona con el tema porque habla de partículas subatómicas.
+Puede confundir porque en el átomo sí hay partículas dentro del núcleo.
+Se descarta porque los electrones no están en el núcleo y además su masa es muy pequeña.
+
+B) ligeras y sin carga eléctrica.
+Esta opción acierta en que los electrones son ligeros.
+Sí se relaciona con el tema.
+Puede confundir porque mezcla una parte correcta con una parte incorrecta.
+Se descarta porque los electrones sí tienen carga eléctrica, y esa carga es negativa.
+
+C) pesadas y localizadas alrededor del núcleo.
+Esta opción pone bien la idea de que están alrededor del núcleo.
+Sí se relaciona con el tema.
+Puede confundir porque una parte sí coincide con el electrón.
+Se descarta porque los electrones no son pesados, son partículas muy ligeras.
+
+D) ligeras y localizadas alrededor del núcleo.
+Esta opción describe que los electrones tienen muy poca masa y se encuentran alrededor del núcleo.
+Sí se relaciona directamente con el tema.
+Puede confundir un poco si el alumno no recuerda qué partículas están en el núcleo y cuáles fuera.
+Se conserva porque coincide con la descripción correcta de los electrones.
+
+E) neutras y localizadas en el núcleo.
+Esta opción dice que no tienen carga y que están en el núcleo.
+Sí se relaciona con el tema.
+Puede confundir porque los neutrones sí son neutros y están en el núcleo.
+Se descarta porque esa descripción corresponde al neutrón, no al electrón.
+
+Opción correcta:
+D) ligeras y localizadas alrededor del núcleo.
+
+Argumento:
+La respuesta correcta es la D porque los electrones son partículas subatómicas con masa muy pequeña y se encuentran alrededor del núcleo del átomo. No están dentro del núcleo. Además, no son neutros: tienen carga negativa. Por eso las opciones que dicen núcleo, neutras o sin carga están mal.
+
+Pista:
+Busca la opción que describa a la partícula que está fuera del núcleo y que tiene masa muy pequeña.
+
+---
+---
+
+Temática del ejercicio: Estructura atómica y partículas subatómicas
+
+Reactivo: 45
+Fuente: Guía 2
+
+Planteamiento del problema:
+Relaciona las siguientes partículas subatómicas con su carga y masa correspondiente.
+
+Partículas subatómicas
+I. Electrón.
+II. Protón.
+III. Neutrón.
+
+Carga y masa
+a. Carga negativa.
+b. Carga positiva.
+c. Se encuentra en el núcleo.
+d. Sin carga.
+e. Masa muy pequeña.
+
+Opciones:
+A) I: a, e - II: a, c - III: d, e
+B) I: b, e - II: b, c - III: a, c
+C) I: a, e - II: a, c - III: b, e
+D) I: a, e - II: b, c - III: d, c
+E) I: b, e - II: b, e - III: d, e
+
+Qué pide resolver el ejercicio:
+Aquí hay que relacionar cada partícula subatómica con la descripción que sí le corresponde.
+
+Desarrollo y descarte de opciones:
+
+A) I: a, e - II: a, c - III: d, e
+I: a, e para electrón sí está bien, porque el electrón tiene carga negativa y masa muy pequeña.
+II: a, c para protón está mal, porque el protón no tiene carga negativa. El protón tiene carga positiva.
+III: d, e para neutrón también está mal, porque el neutrón sí es neutro, pero no se caracteriza por masa muy pequeña como el electrón. Además está en el núcleo.
+Se descarta porque falla en protón y neutrón.
+
+B) I: b, e - II: b, c - III: a, c
+I: b, e para electrón está mal, porque el electrón no tiene carga positiva.
+II: b, c para protón sí está bien, porque tiene carga positiva y está en el núcleo.
+III: a, c para neutrón está mal, porque el neutrón no tiene carga negativa.
+Puede confundir porque el protón sí quedó correcto.
+Se descarta porque electrón y neutrón están mal relacionados.
+
+C) I: a, e - II: a, c - III: b, e
+I: a, e para electrón sí está bien.
+II: a, c para protón está mal, porque el protón no es negativo.
+III: b, e para neutrón está mal, porque el neutrón no es positivo ni se identifica por masa muy pequeña.
+Se descarta porque sólo el electrón quedó bien.
+
+D) I: a, e - II: b, c - III: d, c
+I: a, e para electrón está bien, porque el electrón tiene carga negativa y masa muy pequeña.
+II: b, c para protón está bien, porque el protón tiene carga positiva y se encuentra en el núcleo.
+III: d, c para neutrón está bien, porque el neutrón no tiene carga y también se encuentra en el núcleo.
+Se conserva porque las tres relaciones coinciden correctamente con cada partícula.
+
+E) I: b, e - II: b, e - III: d, e
+I: b, e para electrón está mal, porque el electrón no es positivo.
+II: b, e para protón está mal, porque aunque sí es positivo, no se describe por masa muy pequeña y además falta ubicarlo en el núcleo.
+III: d, e para neutrón está mal, porque sí es neutro, pero no corresponde masa muy pequeña y falta su ubicación en el núcleo.
+Se descarta porque las relaciones no corresponden bien.
+
+Opción correcta:
+D) I: a, e - II: b, c - III: d, c
+
+Argumento:
+La respuesta correcta es la D porque el electrón tiene carga negativa y masa muy pequeña. El protón tiene carga positiva y está en el núcleo. El neutrón no tiene carga y también está en el núcleo. Esa opción es la única que acomoda bien las tres partículas con sus características.
+
+Pista:
+Primero identifica cuál partícula es negativa, cuál es positiva y cuál no tiene carga. Después revisa cuáles están dentro del núcleo.
+
+---
+---
+
+Temática del ejercicio: Símbolos químicos, fórmulas y tabla periódica
+
+Reactivo: 46
+Fuente: Guía 2
+
+Planteamiento del problema:
+Los símbolos químicos de sodio, potasio, calcio y boro son respectivamente:
+
+Opciones:
+A) S, P, Ca, B
+B) S, K, C, B
+C) Na, P, Ca, B
+D) Na, K, Ca, B
+E) Na, K, C, B
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar los símbolos químicos correctos de cuatro elementos: sodio, potasio, calcio y boro.
+
+Desarrollo y descarte de opciones:
+
+A) S, P, Ca, B
+Esta opción propone S para sodio y P para potasio.
+Sí se relaciona con el tema porque usa símbolos químicos.
+Puede confundir porque la primera letra del nombre a veces parece suficiente.
+Se descarta porque S es azufre, no sodio, y P es fósforo, no potasio.
+
+B) S, K, C, B
+Aquí pone bien K para potasio y B para boro.
+Sí se relaciona con el tema.
+Puede confundir porque mezcla símbolos correctos con incorrectos.
+Se descarta porque S no es sodio y C no es calcio. C corresponde a carbono.
+
+C) Na, P, Ca, B
+Aquí pone bien Na para sodio, Ca para calcio y B para boro.
+Sí se relaciona directamente con el tema.
+Puede confundir porque tiene tres respuestas correctas y sólo una incorrecta.
+Se descarta porque P no es potasio. P es fósforo. El símbolo de potasio es K.
+
+D) Na, K, Ca, B
+Esta opción propone Na para sodio, K para potasio, Ca para calcio y B para boro.
+Sí se relaciona exactamente con lo que pregunta el reactivo.
+Puede confundir porque algunos símbolos no coinciden con la primera letra del nombre en español.
+Se conserva porque los cuatro símbolos están correctamente escritos.
+
+E) Na, K, C, B
+Aquí pone bien Na para sodio, K para potasio y B para boro.
+Sí se relaciona con el tema.
+Puede confundir porque sólo cambia un símbolo y parece detalle menor.
+Se descarta porque C no es calcio. El símbolo correcto de calcio es Ca.
+
+Opción correcta:
+D) Na, K, Ca, B
+
+Argumento:
+La respuesta correcta es la D porque los símbolos correctos son: sodio igual a Na, potasio igual a K, calcio igual a Ca y boro igual a B. En este tipo de ejercicios hay que fijarse muy bien porque varios símbolos no coinciden exactamente con la primera letra del nombre en español.
+
+Pista:
+Revisa cuál opción usa dos letras para sodio y calcio, y recuerda que potasio no se representa con P.
+
+---
+---
+
+Temática del ejercicio: Cambios físicos y cambios de estado
+
+Reactivo: 47
+Fuente: Guía 2
+
+Planteamiento del problema:
+La condensación del vapor de agua es un fenómeno físico porque
+
+Opciones:
+A) sólo se modifica la temperatura del agua.
+B) cambia la estructura del agua.
+C) cambia de estado físico.
+D) se altera la naturaleza íntima del agua.
+E) favorece el crecimiento de las plantas.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar por qué la condensación del agua se considera un cambio físico y no un cambio químico.
+
+Desarrollo y descarte de opciones:
+
+A) sólo se modifica la temperatura del agua.
+Esta opción dice que lo único que cambia es la temperatura.
+Sí se relaciona con el tema porque en los cambios de estado sí interviene la temperatura.
+Puede confundir porque muchas veces la condensación ocurre cuando baja la temperatura.
+Se descarta porque el punto central no es sólo que cambie la temperatura, sino que el agua pasa de gas a líquido.
+
+B) cambia la estructura del agua.
+Esta opción dice que cambia la estructura de la sustancia.
+Sí se relaciona con el tema porque en Química se revisa si una sustancia cambia o sigue siendo la misma.
+Puede confundir porque suena a que hubo una transformación importante.
+Se descarta porque en la condensación el agua sigue siendo agua. No cambia su composición.
+
+C) cambia de estado físico.
+Esta opción dice que el agua sólo pasa de un estado a otro.
+Sí se relaciona directamente con el tema.
+Puede confundir un poco si el alumno mezcla cambio de estado con cambio químico.
+Se conserva porque en la condensación el vapor de agua pasa a líquido, pero sigue siendo la misma sustancia.
+
+D) se altera la naturaleza íntima del agua.
+Esta opción dice que cambia la esencia o composición del agua.
+Sí se relaciona con el tema porque eso pasa en un cambio químico.
+Puede confundir porque suena formal y parece explicación correcta.
+Se descarta porque en un fenómeno físico no cambia la naturaleza de la sustancia.
+
+E) favorece el crecimiento de las plantas.
+Esta opción habla de un posible efecto del agua en la naturaleza.
+Sí tiene relación general con el agua, pero no explica el fenómeno.
+Puede confundir porque suena verdadera en otro contexto.
+Se descarta porque no responde por qué la condensación es un cambio físico.
+
+Opción correcta:
+C) cambia de estado físico.
+
+Argumento:
+La respuesta correcta es la C porque en la condensación el agua pasa de estado gaseoso a estado líquido. Eso es un cambio físico, ya que la sustancia sigue siendo agua. No aparece una sustancia nueva ni cambia su composición, sólo cambia su estado.
+
+Pista:
+Busca la opción donde la sustancia siga siendo la misma, pero pase de gas a líquido.
+
+---
+---
+
+Temática del ejercicio: Cambios físicos y cambios químicos
+
+Reactivo: 48
+Fuente: Guía 2
+
+Planteamiento del problema:
+Un ejemplo de cambio químico es la
+
+Opciones:
+A) destilación
+B) sublimación
+C) combustión
+D) evaporación
+E) condensación
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuál proceso sí forma una sustancia nueva, es decir, cuál sí es un cambio químico.
+
+Desarrollo y descarte de opciones:
+
+A) destilación
+La destilación es un método para separar mezclas, por ejemplo líquidos con distintos puntos de ebullición.
+Sí se relaciona con transformaciones de la materia.
+Puede confundir porque implica calentar y enfriar sustancias.
+Se descarta porque no forma una sustancia nueva, sólo separa componentes.
+
+B) sublimación
+La sublimación es el paso de sólido a gas sin pasar por líquido.
+Sí se relaciona con cambios de la materia.
+Puede confundir porque sí hay una transformación visible.
+Se descarta porque sólo cambia el estado físico, no la composición de la sustancia.
+
+C) combustión
+La combustión es una reacción en la que una sustancia se combina con oxígeno y forma otras sustancias.
+Sí se relaciona directamente con cambios químicos.
+Puede confundir si el alumno sólo piensa en fuego y no en reacción.
+Se conserva porque en la combustión sí cambia la composición de la materia y aparecen sustancias nuevas.
+
+D) evaporación
+La evaporación es el paso de líquido a gas.
+Sí se relaciona con cambios de estado.
+Puede confundir porque también ocurre por calentamiento.
+Se descarta porque sólo cambia el estado físico de la sustancia.
+
+E) condensación
+La condensación es el paso de gas a líquido.
+Sí se relaciona con cambios de estado.
+Puede confundir porque el cambio se nota fácilmente.
+Se descarta porque no se forma una sustancia nueva, sigue siendo la misma materia.
+
+Opción correcta:
+C) combustión
+
+Argumento:
+La respuesta correcta es la combustión porque es un cambio químico. En este proceso una sustancia reacciona con oxígeno y se forman sustancias nuevas. En cambio, destilación, sublimación, evaporación y condensación sólo son cambios físicos o métodos de separación, donde la sustancia sigue siendo la misma.
+
+Pista:
+Busca la opción donde no sólo cambie el estado o la forma, sino donde aparezcan sustancias nuevas.
+
+---
+---
+
+Temática del ejercicio: Reactivos y productos
+
+Reactivo: 49
+Fuente: Guía 2
+
+Planteamiento del problema:
+A las substancias que se combinan en una reacción química se les llama ________ y a las substancias formadas en la reacción química se les denomina ________.
+
+Opciones:
+A) reactivos - mezclas
+B) elementos - moléculas
+C) reactivos - productos
+D) moléculas - elementos
+E) productos - mezclas
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cómo se llaman las sustancias que entran a una reacción química y cómo se llaman las que se forman al final.
+
+Desarrollo y descarte de opciones:
+
+A) reactivos - mezclas
+Reactivos sí es un término correcto para las sustancias que participan al inicio de una reacción.
+Sí se relaciona con el tema.
+Puede confundir porque la primera parte está bien.
+Se descarta porque las sustancias que se forman al final no se llaman mezclas, sino productos.
+
+B) elementos - moléculas
+Elementos y moléculas son conceptos de Química, por eso suenan posibles.
+Sí se relaciona con el tema de sustancias.
+Puede confundir porque muchas reacciones involucran elementos y moléculas.
+Se descarta porque el reactivo no pregunta tipos de sustancia, sino la función que tienen dentro de una reacción química.
+
+C) reactivos - productos
+Reactivos son las sustancias que se combinan o reaccionan al inicio.
+Sí se relaciona directamente con el tema.
+Puede confundir un poco si el alumno mezcla producto con mezcla o con molécula.
+Se conserva porque nombra correctamente a las sustancias iniciales y a las sustancias que se forman después de la reacción.
+
+D) moléculas - elementos
+Moléculas y elementos también son conceptos químicos reales.
+Sí se relaciona con el tema general.
+Puede confundir porque una sustancia puede estar formada por moléculas o por elementos.
+Se descarta porque esos términos no indican el papel de entrada y salida dentro de una reacción química.
+
+E) productos - mezclas
+Productos sí es un término químico correcto, pero corresponde a las sustancias formadas al final.
+Sí se relaciona con el tema.
+Puede confundir porque usa una palabra correcta de reacción química.
+Se descarta porque invierte la lógica: las sustancias que se combinan primero no son productos, y al final no se habla de mezclas.
+
+Opción correcta:
+C) reactivos - productos
+
+Argumento:
+La respuesta correcta es la C porque en una reacción química las sustancias que están al inicio y se combinan se llaman reactivos. Después de la transformación, las sustancias nuevas que se obtienen se llaman productos. Esa es la forma correcta de nombrarlas en una ecuación química.
+
+Pista:
+Piensa en una reacción como un proceso: primero entran unas sustancias y al final salen otras distintas.
+
+---
+---
+
+Temática del ejercicio: Ácidos y pH
+
+Reactivo: 50
+Fuente: Guía 2
+
+Planteamiento del problema:
+Son sustancias ácidas, aquellas que tienen un valor de pH:
+
+Opciones:
+A) mayor a 7
+B) mayor a 14
+C) igual a 7
+D) menor a 7
+E) igual a 14
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué valor de pH corresponde a una sustancia ácida.
+
+Desarrollo y descarte de opciones:
+
+A) mayor a 7
+Esta opción dice que la sustancia tiene un pH arriba de 7.
+Sí se relaciona con el tema porque habla directamente del pH.
+Puede confundir porque sí existe una clasificación por arriba de 7.
+Se descarta porque un pH mayor que 7 corresponde a sustancias básicas, no ácidas.
+
+B) mayor a 14
+Esta opción dice que el pH es superior a 14.
+Sí se relaciona con el tema porque sigue hablando de pH.
+Puede confundir porque hace pensar que mientras más alto sea, más fuerte es la sustancia.
+Se descarta porque en la escala escolar de pH normalmente se trabaja de 0 a 14, y además las sustancias ácidas no están por arriba de 7.
+
+C) igual a 7
+Esta opción dice que el pH vale exactamente 7.
+Sí se relaciona con el tema.
+Puede confundir porque 7 está justo en medio de la escala.
+Se descarta porque un pH de 7 corresponde a una sustancia neutra, no ácida.
+
+D) menor a 7
+Esta opción dice que el pH está por debajo de 7.
+Sí se relaciona directamente con el tema.
+Puede confundir si el alumno no recuerda qué lado de la escala corresponde a ácidos y cuál a bases.
+Se conserva porque las sustancias ácidas tienen pH menor que 7.
+
+E) igual a 14
+Esta opción dice que el pH es exactamente 14.
+Sí se relaciona con el tema porque sigue dentro de la escala de pH.
+Puede confundir porque 14 es un número muy marcado dentro de la escala.
+Se descarta porque ese valor corresponde a una sustancia muy básica, no ácida.
+
+Opción correcta:
+D) menor a 7
+
+Argumento:
+La respuesta correcta es la D porque las sustancias ácidas se identifican por tener un pH menor que 7. Si el pH es igual a 7, la sustancia es neutra. Si el pH es mayor a 7, la sustancia es básica. Por eso la única opción correcta es la que dice menor a 7.
+
+Pista:
+Recuerda cómo se divide la escala de pH: abajo de 7, en 7 y arriba de 7.
+
+---
+---
+
+Temática del ejercicio: Reacciones de óxido-reducción
+
+Reactivo: 51
+Fuente: Guía 2
+
+Planteamiento del problema:
+La siguiente ecuación representa una reacción que se clasifica como reacción de:
+
+2Fe + A > 2Fe0
+
+Nota: en el archivo el símbolo de la ecuación no se distingue con total claridad, pero sí se aprecia que el hierro reacciona para formar un óxido.
+
+Opciones:
+A) neutralización
+B) óxido-reducción
+C) descomposición
+D) desplazamiento
+E) sustitución
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué tipo de reacción química representa la ecuación.
+
+Desarrollo y descarte de opciones:
+
+A) neutralización
+Una neutralización ocurre cuando un ácido reacciona con una base y normalmente se forma sal y agua.
+Sí se relaciona con tipos de reacción química.
+Puede confundir porque también es una reacción muy conocida.
+Se descarta porque en la ecuación no aparece una reacción entre ácido y base.
+
+B) óxido-reducción
+Una reacción de óxido-reducción ocurre cuando una sustancia gana o pierde oxígeno, o cuando hay intercambio de electrones.
+Sí se relaciona directamente con el tema.
+Puede confundir porque a veces el alumno sólo la identifica si ve la palabra «oxidación».
+Se conserva porque el hierro está reaccionando para formar un óxido, y eso corresponde a un proceso de oxidación dentro de una reacción de óxido-reducción.
+
+C) descomposición
+Una reacción de descomposición pasa cuando una sola sustancia se rompe en sustancias más simples.
+Sí se relaciona con tipos de reacción.
+Puede confundir porque al final sí aparecen productos.
+Se descarta porque aquí no se está rompiendo una sola sustancia, sino combinando sustancias.
+
+D) desplazamiento
+En una reacción de desplazamiento, un elemento reemplaza a otro dentro de un compuesto.
+Sí se relaciona con clasificación de reacciones.
+Puede confundir porque participa un elemento como el hierro.
+Se descarta porque aquí no se ve que un elemento saque a otro de un compuesto.
+
+E) sustitución
+La sustitución se parece a desplazamiento, porque una sustancia ocupa el lugar de otra.
+Sí se relaciona con reacciones químicas.
+Puede confundir porque suena como intercambio.
+Se descarta porque la ecuación muestra formación de un óxido, no reemplazo de una sustancia por otra.
+
+Opción correcta:
+B) óxido-reducción
+
+Argumento:
+La respuesta correcta es la B porque el hierro está reaccionando con oxígeno para formar un óxido de hierro. Cuando un metal se combina con oxígeno, ocurre oxidación. Ese proceso forma parte de las reacciones de óxido-reducción. No es neutralización, ni descomposición, ni desplazamiento.
+
+Pista:
+Busca la opción que se relaciona con la combinación de un metal con oxígeno para formar un óxido.
+
+---
+---
+
+Temática del ejercicio: Formación de óxidos básicos
+
+Reactivo: 52
+Fuente: Guía 2
+
+Planteamiento del problema:
+Cuando reacciona el oxígeno con los metales forma
+
+Opciones:
+A) anhídridos
+B) sales neutras
+C) sales ácidas
+D) óxidos básicos
+E) peróxidos
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué tipo de sustancia se forma cuando el oxígeno reacciona con un metal.
+
+Desarrollo y descarte de opciones:
+
+A) anhídridos
+Los anhídridos son óxidos de no metales.
+Sí se relaciona con reacciones con oxígeno.
+Puede confundir porque también se forman con oxígeno.
+Se descarta porque el reactivo habla de metales, no de no metales.
+
+B) sales neutras
+Las sales neutras son sustancias que se forman en otros tipos de reacciones, por ejemplo entre ácidos y bases.
+Sí se relaciona con sustancias químicas.
+Puede confundir porque también son compuestos químicos.
+Se descarta porque no es el producto directo de metal más oxígeno.
+
+C) sales ácidas
+Las sales ácidas también son compuestos químicos, pero se forman en otro tipo de procesos.
+Sí se relaciona con clasificación de sustancias.
+Puede confundir porque el nombre suena técnico y parece específico.
+Se descarta porque no corresponde a la reacción entre un metal y el oxígeno.
+
+D) óxidos básicos
+Los óxidos básicos son compuestos que se forman cuando un metal reacciona con oxígeno.
+Sí se relaciona directamente con el tema.
+Puede confundir si el alumno no recuerda la diferencia entre óxidos de metales y óxidos de no metales.
+Se conserva porque esa es justo la definición que pide el reactivo.
+
+E) peróxidos
+Los peróxidos son compuestos que contienen oxígeno, pero no son la respuesta general que se pide aquí.
+Sí se relaciona con sustancias que contienen oxígeno.
+Puede confundir porque también llevan oxígeno y su nombre se parece a óxido.
+Se descarta porque el reactivo pregunta por la formación común al reaccionar oxígeno con metales, y esa categoría general es óxidos básicos.
+
+Opción correcta:
+D) óxidos básicos
+
+Argumento:
+La respuesta correcta es la D porque cuando un metal reacciona con oxígeno se forman óxidos metálicos, que en este nivel se identifican como óxidos básicos. Los anhídridos se asocian con no metales, y las sales no se forman de manera directa sólo por juntar metal y oxígeno.
+
+Pista:
+Fíjate en la opción que nombre al compuesto que resulta de unir un metal con oxígeno.
+
+---
+---
+---

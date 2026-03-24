@@ -1,0 +1,689 @@
+# Guía 1
+
+Temática del ejercicio: Propiedades físicas de los gases
+
+Reactivo: 41
+Fuente: Guía compartida por el usuario. El reactivo visible dice «Son dos propiedades físicas de los gases» y el programa también ubica este tema en Química, en «Gases en la vida diaria: forma y volumen, difusión y expansión». :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+
+Planteamiento del problema:
+41. Son dos propiedades físicas de los gases.
+
+Opciones:
+A) Difusibilidad y volumen propio.
+B) Volumen definido y maleabilidad.
+C) Volumen y forma indefinida.
+D) Forma indefinida y maleabilidad.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuáles características sí corresponden a los gases.
+
+Desarrollo y descarte de opciones:
+
+A) Difusibilidad y volumen propio.
+Difusibilidad significa que un gas puede dispersarse y mezclarse con facilidad, por ejemplo, cuando un olor se esparce en un cuarto. Esa parte sí se relaciona con los gases.
+Lo que está mal es «volumen propio». Un gas no tiene volumen propio o fijo. El gas ocupa el volumen del recipiente donde está.
+Puede confundir porque la primera palabra sí es correcta, pero la segunda ya no.
+Se descarta porque está incompleta y mal en una parte importante.
+
+B) Volumen definido y maleabilidad.
+Volumen definido significa que una sustancia conserva siempre el mismo volumen por sí misma. Eso no corresponde al gas.
+Maleabilidad es la capacidad de un material de deformarse en láminas, como algunos metales. Eso tampoco es propiedad de los gases.
+Puede confundir porque habla de propiedades físicas reales, pero no son de los gases.
+Se descarta porque ambas ideas están mal para este tema.
+
+C) Volumen y forma indefinida.
+Esta opción apunta a la idea correcta: los gases no tienen forma fija y tampoco tienen volumen propio; toman la forma y el volumen del recipiente.
+Puede confundir porque está redactada raro. Lo más correcto sería decir «forma y volumen indefinidos» o «sin forma ni volumen propios».
+Aun así, entre todas las opciones, esta es la que mejor coincide con las propiedades de los gases.
+Se conserva porque es la opción más precisa del reactivo.
+
+D) Forma indefinida y maleabilidad.
+Forma indefinida sí corresponde a los gases.
+Maleabilidad no corresponde a los gases; es una propiedad típica de ciertos sólidos, sobre todo metales.
+Puede confundir porque mezcla una característica correcta con otra incorrecta.
+Se descarta porque no da dos propiedades de los gases, solo una.
+
+Opción correcta:
+C) Volumen y forma indefinida.
+
+Argumento:
+Los gases no tienen forma propia ni volumen propio. Si pones un gas en un recipiente pequeño, ocupa ese espacio; si lo cambias a uno grande, se expande y ocupa el nuevo espacio. Por eso, la idea correcta es que presentan forma indefinida y volumen no fijo. La opción C es la que mejor expresa eso, aunque su redacción no sea la más cuidada.
+
+Pista:
+Busca la opción que diga que el gas no conserva por sí solo ni su forma ni el espacio que ocupa.
+
+---
+---
+
+Temática del ejercicio: Propiedades físicas de la materia: masa y volumen
+
+Reactivo: 42
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+42. Propiedades físicas de las sustancias que permiten medir la cantidad de ellas.
+
+Opciones:
+A) Temperatura de ebullición y solubilidad.
+B) Temperatura de fusión y densidad.
+C) Presión y densidad.
+D) Masa y volumen.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuáles propiedades físicas sirven para medir cuánto hay de una sustancia.
+
+Desarrollo y descarte de opciones:
+
+A) Temperatura de ebullición y solubilidad.
+La temperatura de ebullición indica a qué temperatura una sustancia hierve.
+La solubilidad indica qué tanto puede disolverse una sustancia en otra.
+Sí son propiedades físicas, pero no sirven para medir la cantidad de sustancia.
+Puede confundir porque ambas se pueden medir, pero no responden a «cuánto hay».
+Se descarta.
+
+B) Temperatura de fusión y densidad.
+La temperatura de fusión indica cuándo un material pasa de sólido a líquido.
+La densidad relaciona masa y volumen.
+La densidad ayuda a describir una sustancia, pero no expresa por sí sola la cantidad que tienes.
+Puede confundir porque la densidad sí usa masa y volumen, pero no sustituye a esas dos medidas.
+Se descarta.
+
+C) Presión y densidad.
+La presión es la fuerza aplicada sobre una superficie.
+La densidad, otra vez, describe qué tan concentrada está la materia en un espacio.
+Ninguna de las dos es la forma básica de medir directamente la cantidad de sustancia en este tipo de reactivo.
+Puede confundir porque son propiedades físicas reales, pero no son las más directas para medir cantidad.
+Se descarta.
+
+D) Masa y volumen.
+La masa mide cuánta materia tiene una sustancia.
+El volumen mide cuánto espacio ocupa.
+Las dos sí permiten medir la cantidad de sustancia de manera directa.
+No solo se relacionan con el tema, sino que son justamente las propiedades físicas más usadas para esto.
+Se conserva.
+
+Opción correcta:
+D) Masa y volumen.
+
+Argumento:
+La pregunta pide propiedades físicas que permitan medir la cantidad de una sustancia. La masa dice cuánta materia hay y el volumen dice cuánto espacio ocupa. Por eso son las dos medidas correctas. Las otras opciones describen características de las sustancias, pero no sirven directamente para saber cuánto hay de ellas.
+
+Pista:
+Busca la opción con las dos medidas más básicas que se usan para cuantificar materia y espacio.
+
+---
+---
+
+Temática del ejercicio: Cambios de estado y conservación de la masa
+
+Reactivo: 43
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+43. Si cierta cantidad de agua pasa del estado sólido al estado líquido, permanece constante su
+
+Opciones:
+A) densidad.
+B) masa.
+C) solubilidad.
+D) volumen.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué propiedad no cambia cuando el agua pasa de sólido a líquido.
+
+Desarrollo y descarte de opciones:
+
+A) densidad.
+La densidad es la relación entre la masa y el volumen de una sustancia.
+Sí se relaciona con propiedades físicas, pero no permanece igual al cambiar de estado.
+Puede confundir porque sigue siendo agua, pero el hielo y el agua líquida no tienen la misma densidad.
+Se descarta.
+
+B) masa.
+La masa indica cuánta materia hay.
+Sí se relaciona totalmente con el tema y sí permanece constante si sigue siendo la misma cantidad de agua.
+Puede confundir porque muchas veces se piensa que al derretirse «cambia todo», pero no cambia la cantidad de materia.
+Se conserva.
+
+C) solubilidad.
+La solubilidad es la capacidad de una sustancia para disolverse en otra.
+Se relaciona con propiedades físicas, pero aquí no están hablando de disolver agua en otra sustancia.
+Puede confundir porque es una propiedad real, pero no responde lo que pregunta el reactivo.
+Se descarta.
+
+D) volumen.
+El volumen es el espacio que ocupa una sustancia.
+Sí se relaciona con el tema, pero al pasar de hielo a agua líquida puede cambiar.
+Puede confundir porque el agua sigue siendo la misma sustancia, pero no necesariamente ocupa el mismo espacio en ambos estados.
+Se descarta.
+
+Opción correcta:
+B) masa.
+
+Argumento:
+Cuando el agua pasa de sólido a líquido solo cambia de estado físico. No aparece una sustancia nueva ni desaparece materia. Por eso, la masa se conserva. En cambio, la densidad y el volumen sí pueden cambiar entre el hielo y el agua líquida.
+
+Pista:
+Busca la propiedad que representa la cantidad de materia y que no depende de que esté congelada o líquida.
+
+---
+---
+
+Temática del ejercicio: Mezclas, compuestos y elementos
+
+Reactivo: 44
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+44. A partir de los siguientes modelos X, Q y Z se puede afirmar que X es ________, Q ________ y Z ________.
+
+Opciones:
+A) compuesto - mezcla - elemento
+B) mezcla - compuesto - elemento
+C) elemento - compuesto - mezcla
+D) mezcla - elemento - compuesto
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué representa cada modelo: mezcla, compuesto o elemento.
+
+Desarrollo y descarte de opciones:
+
+A) compuesto - mezcla - elemento
+Compuesto significa que todas las partículas están formadas por átomos distintos unidos.
+Mezcla significa que hay más de un tipo de partícula en el mismo espacio sin ser todas iguales.
+Elemento significa que está formado por un solo tipo de átomo.
+Puede confundir porque Z sí parece elemento, pero X no es compuesto y Q no es mezcla.
+Se descarta.
+
+B) mezcla - compuesto - elemento
+Mezcla significa que aparecen distintos tipos de partículas juntas.
+Eso sí pasa en X, porque se ven partículas diferentes dentro del mismo recipiente.
+Compuesto significa que todas las partículas son iguales, pero están formadas por más de un tipo de átomo unido.
+Eso sí pasa en Q, porque todas las partículas tienen el mismo patrón de átomos unidos de diferente color o tipo.
+Elemento significa que solo hay un tipo de átomo. En Z se observan partículas formadas por átomos iguales.
+Puede confundir porque en Z se ven parejas de átomos, pero siguen siendo del mismo elemento.
+Se conserva.
+
+C) elemento - compuesto - mezcla
+Elemento sería un solo tipo de partícula del mismo átomo.
+Eso no corresponde a X, porque en X hay varios tipos de partículas.
+Q sí parece compuesto, pero Z no parece mezcla.
+Puede confundir porque X tiene algunas partículas parecidas entre sí, pero no todas son iguales.
+Se descarta.
+
+D) mezcla - elemento - compuesto
+Mezcla sí podría encajar con X.
+Pero Q no es elemento, porque sus partículas están formadas por átomos distintos unidos.
+Z tampoco es compuesto, porque sus partículas están hechas del mismo tipo de átomo.
+Puede confundir porque Q y Z muestran partículas agrupadas, pero no toda agrupación es compuesto.
+Se descarta.
+
+Opción correcta:
+B) mezcla - compuesto - elemento
+
+Argumento:
+En X hay diferentes tipos de partículas, así que es una mezcla. En Q todas las partículas son del mismo tipo, pero cada una está formada por átomos distintos unidos, así que es un compuesto. En Z todas las partículas están formadas por el mismo tipo de átomo, así que es un elemento. Esa es la única opción que coincide con los tres modelos.
+
+Pista:
+Primero revisa si en cada recipiente todas las partículas son iguales o si hay varias distintas. Después fíjate si los átomos unidos son del mismo tipo o de tipos diferentes.
+
+---
+---
+
+Temática del ejercicio: Estructura atómica y partículas subatómicas
+
+Reactivo: 45
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+45. Los ________ tienen carga ________ y se ubican dentro del núcleo del átomo.
+
+Opciones:
+A) electrones – negativa
+B) neutrones – negativa
+C) protones – positiva
+D) neutrinos – positiva
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué partícula está dentro del núcleo y qué tipo de carga tiene.
+
+Desarrollo y descarte de opciones:
+
+A) electrones – negativa
+Los electrones sí tienen carga negativa.
+El problema es que no se ubican dentro del núcleo, sino alrededor del núcleo.
+Puede confundir porque la carga sí está bien, pero la ubicación no.
+Se descarta porque la oración completa queda incorrecta.
+
+B) neutrones – negativa
+Los neutrones sí están dentro del núcleo.
+Pero no tienen carga negativa. Su carga es neutra, o sea, no tienen carga.
+Puede confundir porque la ubicación sí coincide.
+Se descarta porque la carga está mal.
+
+C) protones – positiva
+Los protones tienen carga positiva.
+Además, se encuentran dentro del núcleo del átomo.
+Sí se relaciona completamente con el tema.
+No hay error en la opción.
+Se conserva.
+
+D) neutrinos – positiva
+Los neutrinos no son la partícula que se maneja aquí como parte básica de la estructura del átomo en este nivel.
+Además, no es correcto ponerlos como partícula del núcleo con esa descripción.
+Puede confundir por parecerse a la palabra «neutrones».
+Se descarta.
+
+Opción correcta:
+C) protones – positiva
+
+Argumento:
+Dentro del núcleo del átomo se encuentran protones y neutrones. Los protones tienen carga positiva y los neutrones no tienen carga. Los electrones sí tienen carga negativa, pero están fuera del núcleo. Por eso la única opción completa y correcta es «protones – positiva».
+
+Pista:
+Busca la partícula que está en el núcleo y que tiene signo contrario al electrón.
+
+---
+---
+
+Temática del ejercicio: Número atómico y número de masa
+
+Reactivo: 46
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+46. El número de masa de un elemento que tiene 34 protones y 45 neutrones es
+
+Opciones:
+A) 34
+B) 11
+C) 79
+D) 45
+
+Qué pide resolver el ejercicio:
+Aquí hay que calcular el número de masa sumando protones y neutrones.
+
+Desarrollo y descarte de opciones:
+
+A) 34
+Este número corresponde solo a los protones.
+Sí se relaciona con el tema, porque los protones forman parte del átomo.
+Puede confundir porque algunas personas creen que el número de masa y el número atómico son lo mismo.
+Se descarta porque aquí faltan los neutrones.
+
+B) 11
+Este valor parece salir de una resta: 45 menos 34.
+Sí usa los datos del problema, pero la operación está mal para este tema.
+Puede confundir porque el alumno puede pensar que hay que comparar protones y neutrones.
+Se descarta porque el número de masa no se obtiene restando.
+
+C) 79
+Este valor sale de sumar 34 protones más 45 neutrones.
+Sí se relaciona completamente con el tema.
+No confunde si recuerdas que el número de masa cuenta las partículas del núcleo, excepto que aquí solo se suman protones y neutrones porque los electrones no entran.
+Se conserva.
+
+D) 45
+Este número corresponde solo a los neutrones.
+Sí está dentro de los datos del reactivo.
+Puede confundir porque los neutrones sí forman parte del núcleo, pero no representan por sí solos el número de masa.
+Se descarta porque falta sumar los protones.
+
+Opción correcta:
+C) 79
+
+Argumento:
+El número de masa se calcula sumando los protones y los neutrones del átomo. Entonces:
+
+número de masa = protones + neutrones
+
+número de masa = 34 + 45 = 79
+
+Por eso la respuesta correcta es 79. El número atómico sería 34, pero aquí no están preguntando eso.
+
+Pista:
+Si el reactivo habla de «número de masa», piensa en las partículas que están dentro del núcleo y júntalas.
+
+---
+---
+
+Temática del ejercicio: Fórmulas químicas
+
+Reactivo: 47
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+47. En la fórmula del H2O existen 2 ________ de hidrógeno y 1 ________ de oxígeno.
+
+Opciones:
+A) moléculas – átomo
+B) átomos – átomo
+C) moléculas – molécula
+D) átomos – molécula
+
+Qué pide resolver el ejercicio:
+Aquí hay que interpretar la fórmula química del agua y contar qué tipo de partículas aparecen en ella.
+
+Desarrollo y descarte de opciones:
+
+A) moléculas – átomo
+Molécula es el conjunto completo de átomos unidos.
+Átomo es cada partícula individual de un elemento.
+Puede confundir porque en H2O sí hay una molécula completa, pero el número 2 no se refiere a 2 moléculas de hidrógeno, sino a 2 átomos de hidrógeno dentro de una misma molécula de agua.
+Se descarta porque la primera parte está mal.
+
+B) átomos – átomo
+Esta opción dice que en H2O hay 2 átomos de hidrógeno y 1 átomo de oxígeno.
+Sí se relaciona exactamente con la fórmula.
+No confunde si recuerdas que el subíndice indica cuántos átomos de ese elemento hay.
+Se conserva.
+
+C) moléculas – molécula
+Aquí se estaría diciendo que hay 2 moléculas de hidrógeno y 1 molécula de oxígeno.
+Eso no corresponde a la fórmula H2O.
+Puede confundir porque la palabra «molécula» suena correcta en Química, pero aquí no están contando moléculas separadas, sino átomos dentro de una molécula.
+Se descarta.
+
+D) átomos – molécula
+La primera parte sí parece correcta, porque el 2 sí habla de 2 átomos de hidrógeno.
+Pero la segunda parte está mal, porque en H2O no hay 1 molécula de oxígeno, sino 1 átomo de oxígeno.
+Puede confundir porque mezcla una parte correcta con otra incorrecta.
+Se descarta.
+
+Opción correcta:
+B) átomos – átomo
+
+Argumento:
+La fórmula H2O representa una molécula de agua. El subíndice 2 junto a la H indica que hay 2 átomos de hidrógeno. Como la O no tiene subíndice, se entiende que hay 1 átomo de oxígeno. Por eso la forma correcta de completar el enunciado es «2 átomos de hidrógeno y 1 átomo de oxígeno».
+
+Pista:
+Fíjate en los subíndices: indican cuántos átomos hay de cada elemento dentro de la fórmula.
+
+---
+---
+
+Temática del ejercicio: Clasificación de los elementos en la tabla periódica
+
+Reactivo: 48
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+48. En la tabla periódica los elementos se clasifican en orden
+
+Opciones:
+A) creciente de masa atómica.
+B) decreciente de número de masa.
+C) creciente de número atómico.
+D) decreciente de número atómico.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar con qué criterio se acomodan los elementos en la tabla periódica.
+
+Desarrollo y descarte de opciones:
+
+A) creciente de masa atómica.
+Esto significa ordenar los elementos del más ligero al más pesado según su masa.
+Sí se relaciona con la tabla periódica, porque antes hubo intentos de ordenarla así.
+Puede confundir porque históricamente se pensó en la masa atómica para acomodar elementos.
+Se descarta porque la tabla periódica moderna se organiza por número atómico, no por masa atómica.
+
+B) decreciente de número de masa.
+Esto significa acomodarlos de mayor a menor según la suma de protones y neutrones.
+Sí usa un dato del átomo, pero no es el criterio real de orden de la tabla periódica.
+Puede confundir porque «número de masa» suena parecido a «número atómico».
+Se descarta porque no así se clasifican los elementos.
+
+C) creciente de número atómico.
+El número atómico indica cuántos protones tiene un elemento.
+Sí se relaciona exactamente con el tema.
+La tabla periódica va avanzando de menor a mayor número atómico.
+No hay palabra incorrecta aquí.
+Se conserva.
+
+D) decreciente de número atómico.
+Esto significaría ordenarlos del mayor al menor número de protones.
+Sí se relaciona con el número atómico, pero el sentido del orden está mal.
+Puede confundir porque menciona el concepto correcto, pero la palabra «decreciente» arruina la opción.
+Se descarta.
+
+Opción correcta:
+C) creciente de número atómico.
+
+Argumento:
+La tabla periódica moderna ordena los elementos según su número atómico, es decir, según la cantidad de protones que tiene cada átomo. Va en orden creciente: primero el que tiene menos protones y después los que tienen más. Por eso la respuesta correcta es la opción C.
+
+Pista:
+Fíjate en la propiedad del átomo que indica cuántos protones tiene, no en su masa.
+
+---
+---
+
+Temática del ejercicio: Enlaces químicos
+
+Reactivo: 49
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+49. Los enlaces químicos están formados por fuerzas _________ que mantienen unidos a los átomos.
+
+Opciones:
+A) eléctricas
+B) gravitacionales
+C) químicas
+D) magnéticas
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar qué tipo de fuerzas mantienen unidos a los átomos en un enlace químico.
+
+Desarrollo y descarte de opciones:
+
+A) eléctricas
+Esta opción se refiere a fuerzas de atracción o interacción entre cargas.
+Sí se relaciona con el tema, porque los enlaces químicos dependen de interacciones entre cargas positivas y negativas, sobre todo entre núcleos y electrones.
+Puede confundir porque muchos alumnos esperan leer la palabra «químicas», pero el origen del enlace está en fuerzas eléctricas.
+Se conserva.
+
+B) gravitacionales
+Estas fuerzas tienen que ver con la atracción por masa, como la gravedad entre cuerpos.
+No se relacionan con la unión de átomos en Química.
+Puede confundir porque también son fuerzas, pero aquí no explican los enlaces químicos.
+Se descarta.
+
+C) químicas
+Suena lógica porque el tema es de Química.
+Pero está muy general y no nombra qué tipo de fuerza actúa realmente.
+Puede confundir justo por eso: parece correcta por el nombre de la materia, no por el concepto.
+Se descarta.
+
+D) magnéticas
+Estas fuerzas tienen que ver con magnetismo.
+No son las que explican la unión normal entre átomos en los enlaces químicos.
+Puede confundir porque también pertenece al mundo de la Física, pero no aplica aquí.
+Se descarta.
+
+Opción correcta:
+A) eléctricas
+
+Argumento:
+Los enlaces químicos se forman por interacciones eléctricas entre partículas con carga. En palabras sencillas, los átomos se unen por atracciones relacionadas con los electrones y el núcleo. Por eso la respuesta correcta es «eléctricas». La opción «químicas» suena cercana, pero no explica qué fuerza los mantiene unidos.
+
+Pista:
+Busca la opción que tenga que ver con atracción entre cargas, no con masa ni con magnetismo.
+
+---
+---
+
+Temática del ejercicio: Cambios físicos y cambios químicos
+
+Reactivo: 50
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+50. ¿Cuál de los siguientes ejemplos es un fenómeno químico?
+
+Opciones:
+A) Evaporación del agua.
+B) Diluir un refresco.
+C) Combustión de carbón.
+D) Sublimación del yodo.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar cuál opción representa un cambio químico, es decir, un proceso donde se forma una sustancia nueva.
+
+Desarrollo y descarte de opciones:
+
+A) Evaporación del agua.
+Evaporación significa que el agua pasa de líquido a gas.
+Sí se relaciona con el tema de cambios de estado.
+Puede confundir porque sí hay un cambio visible, pero solo cambia el estado físico.
+Se descarta porque sigue siendo agua, no aparece una sustancia nueva.
+
+B) Diluir un refresco.
+Diluir significa mezclar una sustancia con otra para hacerla menos concentrada.
+Sí se relaciona con mezclas y cambios físicos.
+Puede confundir porque al mezclar parece que «cambia», pero no se forma una sustancia nueva.
+Se descarta porque es una mezcla, no una reacción química.
+
+C) Combustión de carbón.
+Combustión significa que una sustancia reacciona al quemarse, generalmente con oxígeno.
+Sí se relaciona totalmente con un fenómeno químico.
+Puede confundir porque también hay calor, humo y cambio de apariencia, pero justo esos son efectos típicos de una reacción química.
+Se conserva porque al quemarse el carbón se forman sustancias nuevas, como gases y cenizas.
+
+D) Sublimación del yodo.
+Sublimación significa pasar de sólido a gas sin pasar por líquido.
+Sí se relaciona con cambios de estado.
+Puede confundir porque el cambio es muy notorio, pero sigue siendo la misma sustancia.
+Se descarta porque no se forma una sustancia nueva.
+
+Opción correcta:
+C) Combustión de carbón.
+
+Argumento:
+Un fenómeno químico ocurre cuando la materia cambia su composición y se forman sustancias nuevas. Eso pasa en la combustión del carbón, porque al quemarse reacciona con el oxígeno y produce otras sustancias. En cambio, evaporar agua, diluir un refresco y sublimar yodo son cambios físicos, porque la sustancia sigue siendo la misma.
+
+Pista:
+Busca la opción donde no solo cambie la forma o el estado, sino donde la sustancia se transforme en otra distinta.
+
+---
+---
+
+Temática del ejercicio: Interpretación de ecuaciones químicas
+
+Reactivo: 51
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+51. Interpreta la información de la siguiente ecuación química.
+2SO2 (g) + O2 (g) → 2SO3 (g)
+
+Opciones:
+A) 2 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.
+B) 4 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.
+C) 4 mol de dióxido de azufre más 2 mol de oxígeno forman 6 mol de trióxido de azufre.
+D) 2 mol de dióxido de azufre más 1 mol de oxígeno forman 2 mol de trióxido de azufre.
+
+Qué pide resolver el ejercicio:
+Aquí hay que leer bien los coeficientes de la ecuación química y ver qué cantidad de cada sustancia participa.
+
+Desarrollo y descarte de opciones:
+
+A) 2 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.
+Esta opción dice que reaccionan 2 mol de SO2 con 2 mol de O2 y que se forman 3 mol de SO3.
+Sí se relaciona con la ecuación, pero no la interpreta bien.
+Puede confundir porque el alumno puede sumar los coeficientes y pensar que el resultado es 3.
+Se descarta porque en la ecuación el oxígeno tiene coeficiente 1, no 2, y el producto tiene coeficiente 2, no 3.
+
+B) 4 mol de dióxido de azufre más 2 mol de oxígeno forman 3 mol de trióxido de azufre.
+Esta opción cambia todos los números de la ecuación.
+Sí usa sustancias correctas, pero las cantidades no coinciden.
+Puede confundir porque parece una proporción posible, pero no es la que está escrita.
+Se descarta porque la ecuación indica 2, 1 y 2, no 4, 2 y 3.
+
+C) 4 mol de dióxido de azufre más 2 mol de oxígeno forman 6 mol de trióxido de azufre.
+Esta opción también altera por completo los coeficientes.
+Sí habla de las sustancias correctas.
+Puede confundir porque algunos alumnos duplican o triplican sin revisar lo que realmente dice la ecuación.
+Se descarta porque no respeta los coeficientes originales.
+
+D) 2 mol de dióxido de azufre más 1 mol de oxígeno forman 2 mol de trióxido de azufre.
+Esta opción interpreta exactamente los coeficientes de la ecuación.
+El número 2 antes de SO2 indica 2 mol de dióxido de azufre.
+Como O2 no tiene número al frente, se entiende que es 1 mol.
+El número 2 antes de SO3 indica 2 mol de trióxido de azufre.
+Se conserva porque coincide por completo con la ecuación.
+
+Opción correcta:
+D) 2 mol de dióxido de azufre más 1 mol de oxígeno forman 2 mol de trióxido de azufre.
+
+Argumento:
+En una ecuación química, los coeficientes indican la proporción en que reaccionan y se forman las sustancias. En
+2SO2 + O2 → 2SO3
+eso significa que reaccionan 2 partes o 2 mol de dióxido de azufre con 1 parte o 1 mol de oxígeno para formar 2 partes o 2 mol de trióxido de azufre. La opción D es la única que respeta exactamente esa relación.
+
+Pista:
+Fíjate solo en los números que van delante de cada fórmula. Si una fórmula no tiene número al frente, se toma como 1.
+
+---
+---
+
+Temática del ejercicio: Reacciones de óxido-reducción
+
+Reactivo: 52
+Fuente: Guía compartida por el usuario
+
+Planteamiento del problema:
+52. Son procesos de óxido–reducción.
+
+Opciones:
+A) La evaporación del agua, el empañamiento de la plata y quemar un papel.
+B) La oxidación de la manzana, la corrosión de un clavo y la combustión de una vela.
+C) El empañamiento de la plata, la oxidación de la manzana y romper un huevo.
+D) La combustión de una vela, quemar un papel y evaporación del agua.
+
+Qué pide resolver el ejercicio:
+Aquí hay que identificar en qué opción todos los ejemplos sí son procesos de óxido-reducción.
+
+Desarrollo y descarte de opciones:
+
+A) La evaporación del agua, el empañamiento de la plata y quemar un papel.
+La evaporación del agua es un cambio físico, porque solo cambia de líquido a gas.
+El empañamiento de la plata sí se relaciona con una reacción química de oxidación.
+Quemar un papel también implica una reacción química.
+Puede confundir porque tiene dos procesos químicos, pero uno no lo es.
+Se descarta porque la evaporación no es un proceso de óxido-reducción.
+
+B) La oxidación de la manzana, la corrosión de un clavo y la combustión de una vela.
+La oxidación de la manzana ocurre cuando ciertas sustancias de la fruta reaccionan con el oxígeno.
+La corrosión de un clavo también implica oxidación del metal.
+La combustión de una vela es una reacción química donde una sustancia reacciona con oxígeno.
+Las tres sí se relacionan con procesos de óxido-reducción.
+Puede confundir porque parecen ejemplos muy distintos, pero en todos hay reacción química con transferencia de electrones o participación del oxígeno.
+Se conserva.
+
+C) El empañamiento de la plata, la oxidación de la manzana y romper un huevo.
+El empañamiento de la plata sí puede considerarse una reacción química.
+La oxidación de la manzana también.
+Romper un huevo es un cambio físico, porque solo se rompe, pero no se forma una sustancia nueva.
+Puede confundir porque dos ejemplos sí son químicos.
+Se descarta porque romper un huevo no es un proceso de óxido-reducción.
+
+D) La combustión de una vela, quemar un papel y evaporación del agua.
+La combustión de una vela sí es una reacción química.
+Quemar un papel también.
+La evaporación del agua no es reacción química, solo es cambio de estado.
+Puede confundir porque tiene dos ejemplos correctos.
+Se descarta porque la evaporación no es un proceso de óxido-reducción.
+
+Opción correcta:
+B) La oxidación de la manzana, la corrosión de un clavo y la combustión de una vela.
+
+Argumento:
+Un proceso de óxido-reducción es una reacción química donde unas sustancias pierden electrones y otras los ganan. En nivel secundaria, muchas veces se reconoce por ejemplos como oxidación, corrosión y combustión. La oxidación de una manzana, la corrosión de un clavo y la combustión de una vela sí pertenecen a ese tipo de procesos. En las demás opciones aparece al menos un cambio físico, como evaporar agua o romper un huevo.
+
+Pista:
+Busca la opción donde todos los ejemplos impliquen reacción química y no solo cambio de forma o de estado.
+
+---
+---
+---
