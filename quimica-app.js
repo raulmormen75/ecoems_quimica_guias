@@ -23,7 +23,10 @@
   const byId = (id) => document.getElementById(id);
 
   function normalizeText(value) {
-    return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return String(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
   }
 
   function esc(value) {
@@ -117,9 +120,20 @@
     return SELECTIONS[exerciseId] || '';
   }
 
-  function optionTone(exercise, option) {
+  function selectionState(exercise) {
     const selected = selectedOption(exercise.id);
     const correct = exercise.correctOption?.label || '';
+    return {
+      selected,
+      correct,
+      hasSelection: !!selected,
+      isCorrect: !!selected && selected === correct,
+      canRetry: !!selected && !!correct && selected !== correct
+    };
+  }
+
+  function optionTone(exercise, option) {
+    const { selected, correct } = selectionState(exercise);
 
     if (!selected || !correct) return { tone: '', label: 'Selecciona' };
     if (option.label === selected && option.label === correct) return { tone: ' is-correct', label: 'Correcta' };
@@ -129,10 +143,11 @@
   }
 
   function optionList(exercise) {
+    const { hasSelection } = selectionState(exercise);
     return `<div class="opts">${(exercise.options || [])
       .map((option) => {
         const state = optionTone(exercise, option);
-        return `<button class="opt${state.tone}" type="button" data-action="pick-option" data-id="${esc(exercise.id)}" data-option="${esc(option.label)}">
+        return `<button class="opt${state.tone}" type="button" data-action="pick-option" data-id="${esc(exercise.id)}" data-option="${esc(option.label)}"${hasSelection ? ' disabled' : ''}>
           <div class="row">
             <span class="let">${esc(option.label)}</span>
             <span class="lab">${esc(state.label)}</span>
@@ -143,15 +158,37 @@
       .join('')}</div>`;
   }
 
+  function retryButton(exercise) {
+    const { canRetry } = selectionState(exercise);
+    if (!canRetry) return '';
+    return `<button class="action retry-action" type="button" data-action="retry-option" data-id="${esc(exercise.id)}">Reintentar</button>`;
+  }
+
   function card(exercise) {
     return `<article class="card" id="reactivo-${esc(exercise.id)}">
-      <span class="topic-badge">${esc(`${exercise.guideName} · Reactivo ${exercise.number}`)}</span>
-      <h3>${esc(exercise.topic)}</h3>
-      <div class="card-grid">
-        <div class="block"><div class="meta">Pregunta</div>${question(exercise.questionLines)}</div>
-        <div class="block"><div class="meta">Opciones</div>${optionList(exercise)}</div>
+      <div class="head">
+        <div>
+          <div class="type">${esc(`${exercise.guideName} · Reactivo ${exercise.number}`)}</div>
+          <h3>${esc(exercise.topic)}</h3>
+        </div>
       </div>
-      <div class="actions">
+      <div class="layout">
+        <div class="block">
+          <div class="problem-head">
+            <div class="meta">Pregunta</div>
+            <span class="reactivo-chip">${esc(`${exercise.options.length} opciones`)}</span>
+          </div>
+          ${question(exercise.questionLines)}
+        </div>
+        <div class="block">
+          <div class="problem-head">
+            <div class="meta">Opciones</div>
+          </div>
+          ${optionList(exercise)}
+        </div>
+      </div>
+      <div class="actions act">
+        ${retryButton(exercise)}
         ${panelButton(exercise.id, 'hint', 'Ver pista')}
       </div>
       <section class="support hint"${isOpen(exercise.id, 'hint') ? '' : ' hidden'}>
@@ -228,7 +265,7 @@
 
     return `<section class="panel">
       <h2>Ruta de consulta sugerida</h2>
-      <p>Empieza por una guía si quieres seguir la secuencia completa. Entra a «Temas» si prefieres localizar contenidos específicos sin romper el orden interno. Usa la búsqueda para ubicar reactivos o conceptos puntuales.</p>
+      <p>Empieza por una guía si quieres seguir la secuencia completa. Entra a «Temas» si prefieres localizar contenidos específicos sin romper el orden interno. Selecciona una opción cuando quieras practicar y abre la pista solo si necesitas una orientación breve.</p>
       <div class="hero-grid">${guideCards}</div>
     </section>
     <section class="panel">
@@ -306,7 +343,7 @@
 
     byId('content').innerHTML = GUIDES
       .map((guide) => guideSection(guide, list.filter((exercise) => exercise.guideId === guide.id)))
-      .join('');
+      .join('') || '';
   }
 
   document.addEventListener('click', (event) => {
@@ -348,6 +385,14 @@
       const option = node.dataset.option || '';
       if (!exerciseId || !option) return;
       SELECTIONS[exerciseId] = option;
+      render();
+      return;
+    }
+
+    if (action === 'retry-option') {
+      const exerciseId = node.dataset.id;
+      if (!exerciseId) return;
+      delete SELECTIONS[exerciseId];
       render();
       return;
     }
