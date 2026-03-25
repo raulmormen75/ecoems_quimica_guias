@@ -284,11 +284,20 @@
     if (action === 'toggle-panel') {
       const exerciseId = node.dataset.id;
       const panel = node.dataset.panel;
+      const panelOrder = { what: 0, analysis: 1, hint: 2 };
       if (!PANELS[exerciseId]) PANELS[exerciseId] = {};
-      PANELS[exerciseId][panel] = !PANELS[exerciseId][panel];
+      const nextState = !PANELS[exerciseId][panel];
+      PANELS[exerciseId][panel] = nextState;
       render();
-      const cardNode = document.getElementById(`reactivo-${exerciseId}`);
-      if (cardNode) cardNode.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (nextState) {
+        window.requestAnimationFrame(() => {
+          const cardNode = document.getElementById(`reactivo-${exerciseId}`);
+          const supportNode = cardNode?.querySelectorAll('.support')[panelOrder[panel] ?? 0];
+          if (supportNode && !supportNode.hasAttribute('hidden')) {
+            supportNode.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }
     }
   });
 
