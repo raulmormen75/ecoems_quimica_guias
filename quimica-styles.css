@@ -533,6 +533,34 @@ main{padding:22px 0 36px}
   background:linear-gradient(180deg,rgba(255,247,238,.98),rgba(255,231,199,.96));
   box-shadow:0 16px 34px rgba(216,111,6,.14);
 }
+.attempt-state{
+  display:grid;
+  gap:8px;
+  padding:16px 18px;
+  border-radius:18px;
+  border:1px solid rgba(20,20,58,.1);
+  background:#fff;
+}
+.attempt-state.warning{
+  border-color:rgba(194,69,41,.18);
+  background:linear-gradient(180deg,rgba(255,247,243,.98),rgba(255,236,229,.96));
+}
+.attempt-state.success{
+  border-color:rgba(17,125,33,.2);
+  background:linear-gradient(180deg,rgba(244,255,241,.98),rgba(232,250,228,.96));
+}
+.feedback-stack{
+  display:grid;
+  gap:12px;
+}
+.solved-panel{
+  background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(244,247,255,.96));
+  border-color:rgba(43,47,143,.12);
+}
+.solved-panel.final{
+  border-color:rgba(17,125,33,.18);
+  background:linear-gradient(180deg,rgba(246,255,244,.98),rgba(234,249,230,.96));
+}
 .support[hidden]{display:none}
 .analysis-grid{display:grid;gap:12px}
 .analysis-item,.analysis{

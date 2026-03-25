@@ -377,13 +377,13 @@ function parseExercise(blockLines, guide, order) {
   const optionsAnalysis = parseOptionsAnalysis(
     extractSection(blockLines, 'Desarrollo y descarte de opciones:', ['Opción correcta:']),
     optionMap
-  ).map((item) => ({
-    ...item,
-    text: finalizeAnalysisText(item.text)
-  }));
+  );
   const correctOption = parseCorrectOption(
     extractSection(blockLines, 'Opción correcta:', ['Argumento:']),
     optionMap
+  );
+  const argument = joinLines(
+    extractSection(blockLines, 'Argumento:', ['Pista:'])
   );
   const hint = joinLines(extractSection(blockLines, 'Pista:', []));
 
@@ -400,6 +400,9 @@ function parseExercise(blockLines, guide, order) {
     questionLines,
     options,
     correctOption,
+    whatToSolve,
+    optionsAnalysis,
+    argument,
     hint,
     tags: buildTags(topic)
   };

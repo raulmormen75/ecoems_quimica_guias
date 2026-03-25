@@ -133,13 +133,13 @@
   }
 
   function optionTone(exercise, option) {
-    const { selected, correct } = selectionState(exercise);
+    const { selected, correct, isCorrect } = selectionState(exercise);
 
-    if (!selected || !correct) return { tone: '', label: 'Selecciona' };
-    if (option.label === selected && option.label === correct) return { tone: ' is-correct', label: 'Correcta' };
-    if (option.label === selected && option.label !== correct) return { tone: ' is-wrong', label: 'Incorrecta' };
-    if (selected !== correct && option.label === correct) return { tone: ' is-reveal', label: 'Correcta' };
-    return { tone: ' is-dim', label: 'Opción' };
+    if (!selected || !correct) return { tone: '', label: 'Seleccionar' };
+    if (isCorrect && option.label === correct) return { tone: ' is-correct', label: 'Correcta' };
+    if (isCorrect) return { tone: ' is-dim', label: 'Bloqueada' };
+    if (option.label === selected) return { tone: ' is-wrong', label: 'Incorrecta' };
+    return { tone: '', label: 'Seleccionar' };
   }
 
   function optionList(exercise) {
@@ -162,6 +162,66 @@
     const { canRetry } = selectionState(exercise);
     if (!canRetry) return '';
     return `<button class="action retry-action" type="button" data-action="retry-option" data-id="${esc(exercise.id)}">Reintentar</button>`;
+  }
+
+  function attemptMessage(exercise) {
+    const { canRetry, isCorrect } = selectionState(exercise);
+    if (canRetry) {
+      return `<section class="attempt-state warning">
+        <div class="meta">Intenta de nuevo</div>
+        <p>Tu elección no coincide. Usa «Reintentar» para restablecer el reactivo y volver a resolverlo.</p>
+      </section>`;
+    }
+    if (isCorrect) {
+      return `<section class="attempt-state success">
+        <div class="meta">Respuesta correcta</div>
+        <p>El reactivo quedó bloqueado y ya puedes revisar el desarrollo completo.</p>
+      </section>`;
+    }
+    return '';
+  }
+
+  function analysisList(exercise) {
+    const items = (exercise.optionsAnalysis || []).filter((item) => item.text);
+    if (!items.length) return '';
+
+    return `<div class="analysis-grid">${items
+      .map((item) => `
+        <article class="analysis">
+          <div class="analysis-head">
+            <span class="badge">${esc(item.label)}</span>
+            <span>${esc(item.option || `Opción ${item.label}`)}</span>
+          </div>
+          ${paragraphs(item.text)}
+        </article>
+      `)
+      .join('')}</div>`;
+  }
+
+  function solvedContent(exercise) {
+    const { isCorrect } = selectionState(exercise);
+    if (!isCorrect) return '';
+
+    return `<section class="feedback-stack">
+      ${exercise.whatToSolve ? `
+        <article class="support solved-panel">
+          <div class="meta">Qué pide resolver el ejercicio</div>
+          ${paragraphs(exercise.whatToSolve)}
+        </article>
+      ` : ''}
+      ${(exercise.optionsAnalysis || []).length ? `
+        <article class="support solved-panel">
+          <div class="meta">Análisis de opciones</div>
+          ${analysisList(exercise)}
+        </article>
+      ` : ''}
+      ${exercise.argument ? `
+        <article class="support solved-panel final">
+          <div class="meta">Argumento de la respuesta correcta</div>
+          ${paragraphs(exercise.argument)}
+        </article>
+      ` : ''}
+    </section>`;
   }
 
   function card(exercise) {
@@ -191,10 +251,12 @@
         ${retryButton(exercise)}
         ${panelButton(exercise.id, 'hint', 'Ver pista')}
       </div>
+      ${attemptMessage(exercise)}
       <section class="support hint"${isOpen(exercise.id, 'hint') ? '' : ' hidden'}>
         <div class="meta">Pista</div>
         ${paragraphs(exercise.hint)}
       </section>
+      ${solvedContent(exercise)}
     </article>`;
   }
 
@@ -393,6 +455,7 @@
       const exerciseId = node.dataset.id;
       if (!exerciseId) return;
       delete SELECTIONS[exerciseId];
+      delete PANELS[exerciseId];
       render();
       return;
     }
