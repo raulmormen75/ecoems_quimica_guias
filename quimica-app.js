@@ -1,27 +1,10 @@
 (() => {
   const DATA = window.IFR_APP_DATA || { meta: {}, topics: [], guides: [] };
-  const GUIDE_ORDER = Object.fromEntries((DATA.guides || []).map((guide, index) => [guide.id, index]));
   const GUIDES = DATA.guides || [];
   const TOPICS = DATA.topics || [];
+  const GUIDE_ORDER = Object.fromEntries(GUIDES.map((guide, index) => [guide.id, index]));
   const STATE = { view: 'inicio', guide: 'all', topic: 'all', query: '' };
   const PANELS = {};
-
-  const EXERCISES = GUIDES.flatMap((guide) =>
-    (guide.exercises || []).map((exercise) => ({
-      ...exercise,
-      guideOrder: GUIDE_ORDER[guide.id] || 0,
-      searchIndex: normalizeText([
-        exercise.guideName,
-        exercise.number,
-        exercise.topic,
-        exercise.question,
-        exercise.whatToSolve,
-        exercise.hint,
-        ...(exercise.options || []).map((option) => option.text),
-        ...(exercise.optionsAnalysis || []).map((item) => item.text)
-      ].join(' '))
-    }))
-  );
 
   const VIEWS = [
     { id: 'inicio', label: 'Inicio' },
@@ -51,16 +34,34 @@
       .replace(/'/g, '&#39;');
   }
 
+  const EXERCISES = GUIDES.flatMap((guide) =>
+    (guide.exercises || []).map((exercise) => ({
+      ...exercise,
+      guideOrder: GUIDE_ORDER[guide.id] || 0,
+      searchIndex: normalizeText([
+        exercise.guideName,
+        exercise.number,
+        exercise.topic,
+        exercise.question,
+        exercise.whatToSolve,
+        exercise.hint,
+        ...(exercise.options || []).map((option) => option.text),
+        ...(exercise.optionsAnalysis || []).map((item) => item.text)
+      ].join(' '))
+    }))
+  );
+
   function paragraphs(text) {
     const blocks = String(text || '')
       .split(/\n{2,}/)
       .map((block) => block.trim())
       .filter(Boolean);
-    return blocks.length
-      ? `<div class="text">${blocks
-          .map((block) => block.split('\n').map((line) => `<p>${esc(line)}</p>`).join(''))
-          .join('')}</div>`
-      : '';
+
+    if (!blocks.length) return '';
+
+    return `<div class="text">${blocks
+      .map((block) => block.split('\n').map((line) => `<p>${esc(line)}</p>`).join(''))
+      .join('')}</div>`;
   }
 
   function question(lines) {
@@ -71,23 +72,25 @@
   }
 
   function currentGuide() {
-    return STATE.view === 'guia-1' ? 'guia-1' : STATE.view === 'guia-2' ? 'guia-2' : STATE.guide;
+    if (STATE.view === 'guia-1') return 'guia-1';
+    if (STATE.view === 'guia-2') return 'guia-2';
+    return STATE.guide;
   }
 
   function matches() {
     const guide = currentGuide();
     const topic = STATE.topic;
     const query = normalizeText(STATE.query.trim());
+
     return EXERCISES.filter((exercise) => {
       if (guide !== 'all' && exercise.guideId !== guide) return false;
       if (topic !== 'all' && exercise.topicId !== topic) return false;
       if (query && !exercise.searchIndex.includes(query)) return false;
       return true;
-    }).sort((left, right) =>
-      left.guideOrder !== right.guideOrder
-        ? left.guideOrder - right.guideOrder
-        : left.sourceOrder - right.sourceOrder
-    );
+    }).sort((left, right) => {
+      if (left.guideOrder !== right.guideOrder) return left.guideOrder - right.guideOrder;
+      return left.sourceOrder - right.sourceOrder;
+    });
   }
 
   function distinct(exercises, field) {
@@ -107,7 +110,8 @@
 
   function panelButton(exerciseId, panel, label) {
     const open = isOpen(exerciseId, panel);
-    return `<button class="action${open ? ' open' : ''}" type="button" data-action="toggle-panel" data-id="${esc(exerciseId)}" data-panel="${esc(panel)}">${esc(open ? `Ocultar ${label.toLowerCase()}` : label)}</button>`;
+    const text = open ? `Ocultar ${label.toLowerCase()}` : label;
+    return `<button class="action${open ? ' open' : ''}" type="button" data-action="toggle-panel" data-id="${esc(exerciseId)}" data-panel="${esc(panel)}">${esc(text)}</button>`;
   }
 
   function optionList(options) {
@@ -118,19 +122,19 @@
 
   function analysisList(exercise) {
     const items = (exercise.optionsAnalysis || []).filter((item) => item.text);
-    return items.length
-      ? `<div class="analysis-list">${items
-          .map(
-            (item) =>
-              `<article class="analysis"><div class="analysis-head"><span class="badge">${esc(item.label)}</span><span>${esc(item.option || `Opción ${item.label}`)}</span></div>${paragraphs(item.text)}</article>`
-          )
-          .join('')}</div>`
-      : '';
+    if (!items.length) return '';
+
+    return `<div class="analysis-list">${items
+      .map((item) => {
+        const optionText = item.option || `Opción ${item.label}`;
+        return `<article class="analysis"><div class="analysis-head"><span class="badge">${esc(item.label)}</span><span>${esc(optionText)}</span></div>${paragraphs(item.text)}</article>`;
+      })
+      .join('')}</div>`;
   }
 
   function card(exercise) {
     return `<article class="card" id="reactivo-${esc(exercise.id)}">
-      <span class="eyebrow">${esc(`${exercise.guideName} · Reactivo ${exercise.number}`)}</span>
+      <span class="topic-badge">${esc(`${exercise.guideName} · Reactivo ${exercise.number}`)}</span>
       <h3>${esc(exercise.topic)}</h3>
       <div class="card-grid">
         <div class="block"><div class="meta">Pregunta</div>${question(exercise.questionLines)}</div>
@@ -141,15 +145,33 @@
         ${panelButton(exercise.id, 'analysis', 'Analizar opciones')}
         ${panelButton(exercise.id, 'hint', 'Ver pista')}
       </div>
-      <section class="support"${isOpen(exercise.id, 'what') ? '' : ' hidden'}><div class="meta">Qué pide</div>${paragraphs(exercise.whatToSolve)}</section>
-      <section class="support"${isOpen(exercise.id, 'analysis') ? '' : ' hidden'}><div class="meta">Análisis de opciones</div>${analysisList(exercise)}</section>
-      <section class="support hint"${isOpen(exercise.id, 'hint') ? '' : ' hidden'}><div class="meta">Pista</div>${paragraphs(exercise.hint)}</section>
+      <section class="support"${isOpen(exercise.id, 'what') ? '' : ' hidden'}>
+        <div class="meta">Qué pide</div>
+        ${paragraphs(exercise.whatToSolve)}
+      </section>
+      <section class="support"${isOpen(exercise.id, 'analysis') ? '' : ' hidden'}>
+        <div class="meta">Análisis de opciones</div>
+        ${analysisList(exercise)}
+      </section>
+      <section class="support hint"${isOpen(exercise.id, 'hint') ? '' : ' hidden'}>
+        <div class="meta">Pista</div>
+        ${paragraphs(exercise.hint)}
+      </section>
     </article>`;
   }
 
   function guideSection(guide, exercises) {
     if (!exercises.length) return '';
-    return `<section class="section"><header class="section-head"><div><h2>${esc(guide.name)}</h2><p>${esc(GUIDE_TEXT[guide.id] || 'Consulta los reactivos de esta guía sin alterar su secuencia original.')}</p></div><span class="count">${esc(String(exercises.length))} reactivos</span></header><div class="cards">${exercises.map(card).join('')}</div></section>`;
+    return `<section class="section">
+      <header class="section-head">
+        <div>
+          <h2>${esc(guide.name)}</h2>
+          <p>${esc(GUIDE_TEXT[guide.id] || 'Consulta los reactivos de esta guía sin alterar su secuencia original.')}</p>
+        </div>
+        <span class="count">${esc(String(exercises.length))} reactivos</span>
+      </header>
+      <div class="cards">${exercises.map(card).join('')}</div>
+    </section>`;
   }
 
   function topicSection(topic, exercises) {
@@ -158,25 +180,62 @@
       if (!byGuide.has(exercise.guideId)) byGuide.set(exercise.guideId, []);
       byGuide.get(exercise.guideId).push(exercise);
     });
+
     const splits = Array.from(byGuide.entries())
       .sort((left, right) => (GUIDE_ORDER[left[0]] || 0) - (GUIDE_ORDER[right[0]] || 0))
       .map(([guideId, items]) => {
         const guide = GUIDES.find((entry) => entry.id === guideId);
-        return `<div class="guide-split"><div class="guide-split-head"><h3>${esc(guide ? guide.name : guideId)}</h3><span>${esc(`${items.length} reactivos en su orden original`)}</span></div><div class="cards">${items.map(card).join('')}</div></div>`;
+        return `<div class="guide-split">
+          <div class="guide-split-head">
+            <h3>${esc(guide ? guide.name : guideId)}</h3>
+            <span>${esc(`${items.length} reactivos en su orden original`)}</span>
+          </div>
+          <div class="cards">${items.map(card).join('')}</div>
+        </div>`;
       })
       .join('');
-    return `<section class="section"><header class="section-head"><div><h2>${esc(topic.name)}</h2><p>Los reactivos aparecen agrupados por guía y respetan la secuencia de origen dentro de cada una.</p></div><span class="count">${esc(String(exercises.length))} reactivos</span></header>${splits}</section>`;
+
+    return `<section class="section">
+      <header class="section-head">
+        <div>
+          <h2>${esc(topic.name)}</h2>
+          <p>Los reactivos aparecen agrupados por guía y respetan la secuencia de origen dentro de cada una.</p>
+        </div>
+        <span class="count">${esc(String(exercises.length))} reactivos</span>
+      </header>
+      ${splits}
+    </section>`;
   }
 
   function home() {
     const guideCards = GUIDES.map((guide) => {
       const first = guide.exercises[0];
       const last = guide.exercises[guide.exercises.length - 1];
-      return `<article class="info-card"><h3>${esc(guide.name)}</h3><p>${esc(GUIDE_TEXT[guide.id] || '')}</p><p>${esc(`${guide.exerciseCount} reactivos · orden ${first.number} a ${last.number}`)}</p><button class="secondary" type="button" data-action="view" data-view="${esc(guide.id)}">Entrar a ${esc(guide.name)}</button></article>`;
+      return `<article class="info-card">
+        <h3>${esc(guide.name)}</h3>
+        <p>${esc(GUIDE_TEXT[guide.id] || '')}</p>
+        <p>${esc(`${guide.exerciseCount} reactivos · orden ${first.number} a ${last.number}`)}</p>
+        <button class="chip" type="button" data-action="view" data-view="${esc(guide.id)}">Entrar a ${esc(guide.name)}</button>
+      </article>`;
     }).join('');
-    const topicButtons = TOPICS.map((topic) => `<button type="button" data-action="topic" data-topic="${esc(topic.id)}">${esc(`${topic.name} (${topic.exerciseCount})`)}</button>`).join('');
+
+    const topicButtons = TOPICS.map((topic) =>
+      `<button type="button" data-action="topic" data-topic="${esc(topic.id)}">${esc(`${topic.name} (${topic.exerciseCount})`)}</button>`
+    ).join('');
+
     const previews = GUIDES.map((guide) => guideSection(guide, guide.exercises.slice(0, 2))).join('');
-    return `<section class="panel"><h2>Ruta de estudio sugerida</h2><p>Empieza por una guía si quieres seguir la secuencia original completa. Entra a «Temas» si prefieres localizar contenidos específicos sin romper el orden interno de cada guía. Usa la búsqueda para ubicar conceptos o reactivos concretos.</p><div class="hero-grid">${guideCards}</div></section><section class="panel"><h2>Temas disponibles</h2><p>La clasificación temática se toma directamente del material fuente. Sirve para consultar mejor, pero no altera la fidelidad de los reactivos.</p><div class="quick-topics">${topicButtons}</div></section>${previews}`;
+
+    return `<section class="panel">
+      <h2>Ruta de consulta sugerida</h2>
+      <p>Empieza por una guía si quieres seguir la secuencia completa. Entra a «Temas» si prefieres localizar contenidos específicos sin romper el orden interno. Usa la búsqueda para ubicar reactivos o conceptos puntuales.</p>
+      <div class="hero-grid">${guideCards}</div>
+    </section>
+    <section class="panel">
+      <h2>Temas disponibles</h2>
+      <p>La clasificación temática se toma directamente del material fuente. Sirve para consultar mejor, pero no altera la fidelidad de los reactivos.</p>
+      <div class="quick-topics">${topicButtons}</div>
+    </section>
+    ${previews}`;
   }
 
   function empty() {
@@ -195,10 +254,10 @@
   }
 
   function renderTopicChips(list) {
-    const visibleTopics =
-      STATE.view === 'inicio'
-        ? TOPICS
-        : TOPICS.filter((topic) => list.some((exercise) => exercise.topicId === topic.id) || STATE.topic === topic.id);
+    const visibleTopics = STATE.view === 'inicio'
+      ? TOPICS
+      : TOPICS.filter((topic) => list.some((exercise) => exercise.topicId === topic.id) || STATE.topic === topic.id);
+
     return [
       chip('Todos los temas', STATE.topic === 'all', 'topic', { 'data-topic': 'all' }),
       ...visibleTopics.map((topic) => chip(`${topic.name} (${topic.exerciseCount})`, STATE.topic === topic.id, 'topic', { 'data-topic': topic.id }))
@@ -210,12 +269,12 @@
       { value: list.length, label: 'Reactivos visibles' },
       { value: distinct(list, 'guideId'), label: 'Guías representadas' },
       { value: distinct(list, 'topicId'), label: 'Temas activos' }
-    ].map((item) => `<div class="sum"><b>${esc(String(item.value))}</b><span>${esc(item.label)}</span></div>`).join('');
+    ].map((item) => `<div><b>${esc(String(item.value))}</b><span>${esc(item.label)}</span></div>`).join('');
   }
 
   function render() {
     const list = matches();
-    byId('topStats').textContent = `${list.length} visibles · ${distinct(list, 'topicId')} temas · consulta sin respuestas explícitas`;
+    byId('topStats').textContent = `Visibles: ${list.length} | Guías: ${distinct(list, 'guideId')} | Temas: ${distinct(list, 'topicId')}`;
     byId('presetNav').innerHTML = renderPresetNav();
     byId('guideChips').innerHTML = renderGuideChips();
     byId('topicChips').innerHTML = renderTopicChips(list);
@@ -241,21 +300,24 @@
         if (!grouped.has(exercise.topicId)) grouped.set(exercise.topicId, []);
         grouped.get(exercise.topicId).push(exercise);
       });
+
       byId('content').innerHTML = TOPICS.filter((topic) => grouped.has(topic.id))
         .map((topic) => topicSection(topic, grouped.get(topic.id)))
         .join('');
       return;
     }
 
-    byId('content').innerHTML =
-      GUIDES.map((guide) => guideSection(guide, list.filter((exercise) => exercise.guideId === guide.id))).join('') ||
-      empty();
+    byId('content').innerHTML = GUIDES
+      .map((guide) => guideSection(guide, list.filter((exercise) => exercise.guideId === guide.id)))
+      .join('') || empty();
   }
 
   document.addEventListener('click', (event) => {
     const node = event.target.closest('[data-action]');
     if (!node) return;
+
     const action = node.dataset.action;
+
     if (action === 'view') {
       STATE.view = node.dataset.view || 'inicio';
       if (STATE.view === 'guia-1') STATE.guide = 'guia-1';
@@ -267,6 +329,7 @@
       render();
       return;
     }
+
     if (action === 'guide') {
       STATE.guide = node.dataset.guide || 'all';
       if (STATE.guide === 'guia-1' || STATE.guide === 'guia-2') STATE.view = STATE.guide;
@@ -275,20 +338,24 @@
       render();
       return;
     }
+
     if (action === 'topic') {
       STATE.topic = node.dataset.topic || 'all';
       if (STATE.view === 'inicio') STATE.view = 'temas';
       render();
       return;
     }
+
     if (action === 'toggle-panel') {
       const exerciseId = node.dataset.id;
       const panel = node.dataset.panel;
       const panelOrder = { what: 0, analysis: 1, hint: 2 };
+
       if (!PANELS[exerciseId]) PANELS[exerciseId] = {};
       const nextState = !PANELS[exerciseId][panel];
       PANELS[exerciseId][panel] = nextState;
       render();
+
       if (nextState) {
         window.requestAnimationFrame(() => {
           const cardNode = document.getElementById(`reactivo-${exerciseId}`);
@@ -310,8 +377,7 @@
   window.applyPreset = (preset) => {
     STATE.view = preset;
     if (preset === 'guia-1' || preset === 'guia-2') STATE.guide = preset;
-    if (preset === 'temas') STATE.guide = 'all';
-    if (preset === 'todos') STATE.guide = 'all';
+    if (preset === 'temas' || preset === 'todos') STATE.guide = 'all';
     render();
     byId('content').scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
