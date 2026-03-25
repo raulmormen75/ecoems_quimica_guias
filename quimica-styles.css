@@ -3,6 +3,10 @@
   --n2:#14143A;
   --n3:#2B2F8F;
   --g:#2CE51E;
+  --ok:#117D21;
+  --bad:#C24529;
+  --warn:#F28C28;
+  --warn-deep:#D86F06;
   --ink:#12162a;
   --muted:#5b6489;
   --line:rgba(20,20,58,.12);
@@ -344,13 +348,47 @@ main{padding:22px 0 36px}
   text-transform:uppercase;
 }
 .card h3{font-size:1.24rem;letter-spacing:-.04em}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+.type{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(28,30,90,.08);
+  color:var(--n1);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.layout{display:grid;gap:14px}
+.problem-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.reactivo-chip{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 12px;
+  border-radius:999px;
+  border:1px solid rgba(43,47,143,.14);
+  background:rgba(243,246,255,.98);
+  color:var(--n1);
+  font-size:.78rem;
+  font-weight:800;
+}
 .question{
   display:grid;
-  gap:8px;
-  padding:16px 18px;
-  border-radius:var(--radius-md);
-  background:#fff;
-  border:1px solid rgba(20,20,58,.08);
+  gap:10px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
 }
 .question-label,.options-label,.support-panel h4{
   font-size:.76rem;
@@ -359,20 +397,31 @@ main{padding:22px 0 36px}
   color:var(--muted);
   font-weight:800;
 }
-.question p,.support-panel p{line-height:1.72;color:var(--ink)}
-.options,.analysis-list{display:grid;gap:10px}
-.option,.options li{
+.question p,.support-panel p,.support p,.text p{line-height:1.72;color:var(--ink)}
+.opts,.analysis-list{display:grid;gap:10px}
+.opt{
   display:grid;
-  grid-template-columns:40px 1fr;
-  gap:12px;
-  align-items:start;
+  gap:10px;
+  text-align:left;
   padding:14px 16px;
-  border-radius:var(--radius-md);
-  background:#fff;
-  border:1px solid rgba(20,20,58,.08);
+  border-radius:20px;
+  border:1px solid rgba(20,20,58,.1);
+  background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(247,249,255,.96));
+  color:var(--ink);
+  transition:transform .2s ease,box-shadow .24s ease,border-color .24s ease,background .24s ease,opacity .24s ease;
 }
-.options{list-style:none;padding:0;margin:0}
-.option-label{
+.opt:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(17,22,65,.08)}
+.opt:focus-visible{
+  outline:none;
+  box-shadow:0 0 0 4px rgba(43,47,143,.14),0 12px 24px rgba(17,22,65,.08);
+}
+.opt .row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+.opt .let,.badge{
   display:grid;
   place-items:center;
   width:40px;
@@ -382,6 +431,40 @@ main{padding:22px 0 36px}
   color:var(--n1);
   font-weight:800;
 }
+.opt .lab{
+  margin-left:auto;
+  color:var(--muted);
+  font-size:.78rem;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+.opt.is-dim{opacity:.72}
+.opt.is-correct,
+.opt.is-reveal{
+  border-color:rgba(17,125,33,.34);
+  background:linear-gradient(180deg,rgba(241,255,238,.98),rgba(232,250,228,.96));
+  box-shadow:0 0 0 1px rgba(17,125,33,.12),0 0 0 6px rgba(44,229,30,.08),0 0 28px rgba(44,229,30,.22);
+  animation:correctGlow 2.6s ease-in-out infinite;
+}
+.opt.is-correct .let,
+.opt.is-reveal .let{
+  background:rgba(44,229,30,.16);
+  color:var(--ok);
+}
+.opt.is-correct .lab,
+.opt.is-reveal .lab{color:var(--ok)}
+.opt.is-wrong{
+  border-color:rgba(194,69,41,.32);
+  background:linear-gradient(180deg,rgba(255,245,241,.98),rgba(255,236,230,.96));
+  box-shadow:0 0 0 1px rgba(194,69,41,.12),0 0 0 6px rgba(194,69,41,.07),0 0 24px rgba(194,69,41,.18);
+  animation:wrongGlow 2.4s ease-in-out infinite;
+}
+.opt.is-wrong .let{
+  background:rgba(194,69,41,.14);
+  color:var(--bad);
+}
+.opt.is-wrong .lab{color:var(--bad)}
 .badge{
   display:grid;
   place-items:center;
@@ -391,6 +474,14 @@ main{padding:22px 0 36px}
   background:rgba(28,30,90,.08);
   color:var(--n1);
   font-weight:800;
+}
+@keyframes correctGlow{
+  0%,100%{box-shadow:0 0 0 1px rgba(17,125,33,.12),0 0 0 6px rgba(44,229,30,.08),0 0 18px rgba(44,229,30,.18)}
+  50%{box-shadow:0 0 0 1px rgba(17,125,33,.18),0 0 0 10px rgba(44,229,30,.12),0 0 34px rgba(44,229,30,.28)}
+}
+@keyframes wrongGlow{
+  0%,100%{box-shadow:0 0 0 1px rgba(194,69,41,.12),0 0 0 6px rgba(194,69,41,.07),0 0 16px rgba(194,69,41,.16)}
+  50%{box-shadow:0 0 0 1px rgba(194,69,41,.18),0 0 0 10px rgba(245,186,25,.1),0 0 28px rgba(194,69,41,.24)}
 }
 .support-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .support-toggle,.action{
@@ -403,6 +494,18 @@ main{padding:22px 0 36px}
   font-weight:700;
 }
 .support-toggle.active{background:rgba(28,30,90,.92);color:#fff;border-color:rgba(28,30,90,.92)}
+.actions.act{display:flex;flex-wrap:wrap;gap:10px}
+.action.hint-action{
+  background:linear-gradient(180deg,rgba(255,198,129,.98),rgba(242,140,40,.98));
+  border-color:rgba(216,111,6,.32);
+  color:#5d3207;
+  box-shadow:0 10px 18px rgba(216,111,6,.18);
+}
+.action.hint-action.open{
+  background:linear-gradient(180deg,rgba(242,140,40,.98),rgba(216,111,6,.98));
+  border-color:rgba(168,85,9,.28);
+  color:#fff8ef;
+}
 .support-stack{display:grid;gap:12px}
 .support-panel,.support{
   display:grid;
@@ -414,8 +517,9 @@ main{padding:22px 0 36px}
   scroll-margin-top:100px;
 }
 .support-panel.hint,.support.hint{
-  border-color:rgba(44,229,30,.24);
-  background:linear-gradient(180deg,rgba(248,255,245,.98),rgba(240,253,236,.96));
+  border-color:rgba(216,111,6,.28);
+  background:linear-gradient(180deg,rgba(255,247,238,.98),rgba(255,231,199,.96));
+  box-shadow:0 16px 34px rgba(216,111,6,.14);
 }
 .support[hidden]{display:none}
 .analysis-grid{display:grid;gap:12px}
@@ -466,6 +570,9 @@ main{padding:22px 0 36px}
   .guide-notes,.hero-grid,.sum,.support-actions,.card-grid,.rows{grid-template-columns:1fr}
   .hero-nav{border-radius:24px;padding:14px 16px}
   .hero-fox{width:min(100%,360px)}
-  .option{grid-template-columns:36px 1fr;padding:12px 14px}
-  .option-label,.badge{width:36px;height:36px;border-radius:12px}
+  .problem-head{align-items:flex-start}
+  .opt{padding:12px 14px}
+  .opt .row{align-items:flex-start}
+  .opt .let,.badge{width:36px;height:36px;border-radius:12px}
+  .opt .lab{font-size:.72rem}
 }

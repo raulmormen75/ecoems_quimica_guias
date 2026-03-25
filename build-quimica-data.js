@@ -320,6 +320,27 @@ function parseOptionsAnalysis(lines, optionMap) {
   }));
 }
 
+function parseCorrectOption(lines, optionMap) {
+  const firstLine = trimBlankLines(lines)
+    .map((line) => cleanInline(line))
+    .find(Boolean);
+
+  if (!firstLine) {
+    throw new Error('No se encontró una opción correcta visible en el bloque.');
+  }
+
+  const match = firstLine.match(/^([A-E])\)\s*(.*)$/);
+  if (!match) {
+    throw new Error(`No se pudo interpretar la opción correcta: "${firstLine}".`);
+  }
+
+  const label = match[1];
+  return {
+    label,
+    text: optionMap.get(label) || cleanInline(match[2])
+  };
+}
+
 function validateBlock(blockLines, guideName) {
   for (const label of SECTION_LABELS) {
     if (!blockLines.some((line) => cleanInline(line) === label || cleanInline(line).startsWith(label))) {
@@ -360,6 +381,10 @@ function parseExercise(blockLines, guide, order) {
     ...item,
     text: finalizeAnalysisText(item.text)
   }));
+  const correctOption = parseCorrectOption(
+    extractSection(blockLines, 'Opción correcta:', ['Argumento:']),
+    optionMap
+  );
   const hint = joinLines(extractSection(blockLines, 'Pista:', []));
 
   return {
@@ -374,8 +399,7 @@ function parseExercise(blockLines, guide, order) {
     question: questionLines.join('\n'),
     questionLines,
     options,
-    whatToSolve,
-    optionsAnalysis,
+    correctOption,
     hint,
     tags: buildTags(topic)
   };

@@ -5,6 +5,7 @@
   const GUIDE_ORDER = Object.fromEntries(GUIDES.map((guide, index) => [guide.id, index]));
   const STATE = { view: 'inicio', guide: 'all', topic: 'all', query: '' };
   const PANELS = {};
+  const SELECTIONS = {};
 
   const VIEWS = [
     { id: 'inicio', label: 'Inicio' },
@@ -43,10 +44,8 @@
         exercise.number,
         exercise.topic,
         exercise.question,
-        exercise.whatToSolve,
         exercise.hint,
-        ...(exercise.options || []).map((option) => option.text),
-        ...(exercise.optionsAnalysis || []).map((item) => item.text)
+        ...(exercise.options || []).map((option) => option.text)
       ].join(' '))
     }))
   );
@@ -111,23 +110,35 @@
   function panelButton(exerciseId, panel, label) {
     const open = isOpen(exerciseId, panel);
     const text = open ? `Ocultar ${label.toLowerCase()}` : label;
-    return `<button class="action${open ? ' open' : ''}" type="button" data-action="toggle-panel" data-id="${esc(exerciseId)}" data-panel="${esc(panel)}">${esc(text)}</button>`;
+    return `<button class="action hint-action${open ? ' open' : ''}" type="button" data-action="toggle-panel" data-id="${esc(exerciseId)}" data-panel="${esc(panel)}">${esc(text)}</button>`;
   }
 
-  function optionList(options) {
-    return `<ul class="options">${(options || [])
-      .map((option) => `<li><span class="badge">${esc(option.label)}</span><div>${esc(option.text)}</div></li>`)
-      .join('')}</ul>`;
+  function selectedOption(exerciseId) {
+    return SELECTIONS[exerciseId] || '';
   }
 
-  function analysisList(exercise) {
-    const items = (exercise.optionsAnalysis || []).filter((item) => item.text);
-    if (!items.length) return '';
+  function optionTone(exercise, option) {
+    const selected = selectedOption(exercise.id);
+    const correct = exercise.correctOption?.label || '';
 
-    return `<div class="analysis-list">${items
-      .map((item) => {
-        const optionText = item.option || `Opción ${item.label}`;
-        return `<article class="analysis"><div class="analysis-head"><span class="badge">${esc(item.label)}</span><span>${esc(optionText)}</span></div>${paragraphs(item.text)}</article>`;
+    if (!selected || !correct) return { tone: '', label: 'Selecciona' };
+    if (option.label === selected && option.label === correct) return { tone: ' is-correct', label: 'Correcta' };
+    if (option.label === selected && option.label !== correct) return { tone: ' is-wrong', label: 'Incorrecta' };
+    if (selected !== correct && option.label === correct) return { tone: ' is-reveal', label: 'Correcta' };
+    return { tone: ' is-dim', label: 'Opción' };
+  }
+
+  function optionList(exercise) {
+    return `<div class="opts">${(exercise.options || [])
+      .map((option) => {
+        const state = optionTone(exercise, option);
+        return `<button class="opt${state.tone}" type="button" data-action="pick-option" data-id="${esc(exercise.id)}" data-option="${esc(option.label)}">
+          <div class="row">
+            <span class="let">${esc(option.label)}</span>
+            <span class="lab">${esc(state.label)}</span>
+          </div>
+          <div>${esc(option.text)}</div>
+        </button>`;
       })
       .join('')}</div>`;
   }
@@ -138,21 +149,11 @@
       <h3>${esc(exercise.topic)}</h3>
       <div class="card-grid">
         <div class="block"><div class="meta">Pregunta</div>${question(exercise.questionLines)}</div>
-        <div class="block"><div class="meta">Opciones</div>${optionList(exercise.options)}</div>
+        <div class="block"><div class="meta">Opciones</div>${optionList(exercise)}</div>
       </div>
       <div class="actions">
-        ${panelButton(exercise.id, 'what', 'Ver qué pide')}
-        ${panelButton(exercise.id, 'analysis', 'Analizar opciones')}
         ${panelButton(exercise.id, 'hint', 'Ver pista')}
       </div>
-      <section class="support"${isOpen(exercise.id, 'what') ? '' : ' hidden'}>
-        <div class="meta">Qué pide</div>
-        ${paragraphs(exercise.whatToSolve)}
-      </section>
-      <section class="support"${isOpen(exercise.id, 'analysis') ? '' : ' hidden'}>
-        <div class="meta">Análisis de opciones</div>
-        ${analysisList(exercise)}
-      </section>
       <section class="support hint"${isOpen(exercise.id, 'hint') ? '' : ' hidden'}>
         <div class="meta">Pista</div>
         ${paragraphs(exercise.hint)}
@@ -238,10 +239,6 @@
     ${previews}`;
   }
 
-  function empty() {
-    return `<section class="empty"><h2>No hay reactivos con ese filtro.</h2><p>Ajusta la búsqueda, cambia el tema o vuelve a una vista más amplia.</p></section>`;
-  }
-
   function renderPresetNav() {
     return VIEWS.map((view) => chip(view.label, STATE.view === view.id, 'view', { 'data-view': view.id })).join('');
   }
@@ -309,7 +306,7 @@
 
     byId('content').innerHTML = GUIDES
       .map((guide) => guideSection(guide, list.filter((exercise) => exercise.guideId === guide.id)))
-      .join('') || empty();
+      .join('');
   }
 
   document.addEventListener('click', (event) => {
@@ -346,11 +343,18 @@
       return;
     }
 
+    if (action === 'pick-option') {
+      const exerciseId = node.dataset.id;
+      const option = node.dataset.option || '';
+      if (!exerciseId || !option) return;
+      SELECTIONS[exerciseId] = option;
+      render();
+      return;
+    }
+
     if (action === 'toggle-panel') {
       const exerciseId = node.dataset.id;
       const panel = node.dataset.panel;
-      const panelOrder = { what: 0, analysis: 1, hint: 2 };
-
       if (!PANELS[exerciseId]) PANELS[exerciseId] = {};
       const nextState = !PANELS[exerciseId][panel];
       PANELS[exerciseId][panel] = nextState;
@@ -359,7 +363,7 @@
       if (nextState) {
         window.requestAnimationFrame(() => {
           const cardNode = document.getElementById(`reactivo-${exerciseId}`);
-          const supportNode = cardNode?.querySelectorAll('.support')[panelOrder[panel] ?? 0];
+          const supportNode = cardNode?.querySelector('.support');
           if (supportNode && !supportNode.hasAttribute('hidden')) {
             supportNode.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
